@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 Multi-Agent System for Domain-Specific Information Retrieval
 
 A sophisticated multi-agent system that provides real-time domain-specific information retrieval and response generation for **AI-Robotics** and **Geopolitics** domains using advanced LLM and RAG technologies.
@@ -262,3 +263,7 @@ For issues and questions:
 ---
 
 **Built with ❤️ for intelligent information retrieval**
+=======
+# Intellibridge-Info_Retrieval
+Capstone project 
+>>>>>>> 7b9c18d87b67e2139bb1d1c6fe9d59bf9267544b
