@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "query": "How Yolo in deep learning works",
+    "domain": "ai-robotics",
+    "scraped_at": "2025-11-19T21:30:15.377397",
+    "article_count": 5,
+    "total_content_length": 17137
+  },
+  "articles": [
+    {
+      "title": "Optimized Pothole Detection with a Fine-Tuned YOLOv8 Model ...",
+      "content": "Road infrastructure degradation poses serious threats to public safety and traffic efficiency, especially in emerging nations like India. Road quality improvement, accident risk reduction, and prompt repairs all depend on pothole identification and precise dimension assessment. The suggested system offers a scalable approach to road condition monitoring by showcasing the possibility of real-time deployment in situations with limited resources. In this study, we present an optimized approach to pothole detection and measurement using a fine-tuned You Only Look Once, version 8 (YOLOv8) deep learning model. Another objective is to determine depth of the pothole using monocular vision method. The monocular vision approach provides cost-effective depth estimation, enabling accurate width, length, and depth measurements of detected potholes. According to the results, potholes can be detected with high precision and recall rates, and the dimensions for repair prioritization may be accurately estimated. Our approach has significantly improved performance when compared to existing machine learning methods. This is a preview of subscription content, log in via an institution to check access. Tax calculation will be finalised at checkout Purchases are for personal use only Institutional subscriptions Gomez, R., Li, X., Patel, A.: Integrated YOLOv8 and depth estimation for pothole detection and severity analysis. J. Intell. Transp. Syst. 35(2), 130145 (2023) Google Scholar Alexy Bochkovskiy, A., Wang, C., Liao, H.Y.M.: YOLOv4, YOLOv5, and YOLOv6: a survey on object detection models (2023). arXiv preprint arXiv:2207.04282 Yan, Y., et al.: Development of a deep learning model for real-time pothole detection in road networks. J. Infrastruct. Syst. 29(4), 04023015 (2023). https:doi.org10.1061(ASCE)IS.1943-555X.0000632 Article Google Scholar Awad, A.J., Al-Dujaili, R.H., Pujol, R.L.S.: Real-time pothole detection using YOLO for road safety monitoring. J. Comput. Vis. Image Process. 16(3), 212228 (2023) Google Scholar Davies, L., Chen, Z., Wilson, R.: Monocular depth estimation using ResNet-based encoder-decoder for road defect detection. Comput. Vis. Image Underst. 217, 104159 (2022) Google Scholar Mishra, P., et al.: Deep learning-based road surface condition monitoring system for smart cities. Sensors 22(12), 4141 (2022). https:doi.org10.3390s22124141 Article Google Scholar Chun, C., Lee, T., Kwon, S., Ryu, S.-K.: Classification and segmentation of longitudinal road marking using convolutional neural networks for dynamic retroreflection estimation. Sensors 20(19), 5560 (2020). https:doi.org10.3390s20195560 Article Google Scholar Khan, S., Hassan, M., Ali, R.: Improved pothole detection using transfer learning and YOLO. J. Intell. Syst. 33(1), 2135 (2023) Google Scholar Kumar, V., Mukherjee, S.S.: Real-time pothole detection using deep learning models: a YOLOv3 approach. Comput. Intell. Neurosci. 2023, 112 (2023) Google Scholar Fisher, B., Park, H., Zhao, Y.: Combined YOLO-based pothole detection and depth estimation using monocular vision. IEEE Access 11, 9783297845 (2023) Google Scholar Hernandez, J., Kumar, P., Singh, M.: A multi-task learning framework for pothole detection and depth estimation using YOLOv8. IEEE Trans. Neural Netw. Learn. Syst. 39(4), 245260 (2024) Google Scholar Huang, C.H., Ho, T.T., Lin, J.M.: Pothole detection using YOLOv4 for road safety systems. Sensors 21(18), 6117 (2021) Article Google Scholar Ranft, M., Surmann, D., Lüdtke, H.: Monocular depth estimation using deep learning for real-world applications. J. Autonom. Syst. 19(2), 124135 (2023) Google Scholar Evans, S., Gupta, V., Lopez, M.: Self-supervised monocular depth estimation for pothole severity detection. Pattern Recogn. Lett. 179, 1527 (2023) Google Scholar Lee, T., Ryu, S.-K., et al.: Classification and segmentation of longitudinal road marking using convolutional neural networks for dynamic retroreflection estimation. Sensors 20(19), 5560 (2020). https:doi.org10.3390s20195560 Prathama, D., et al.: Application of artificial intelligence for smart traffic management in urban areas using YOLOV7. J. Traff. Eng. 58(4), 345359 (2023). https:doi.org10.1016j.jtte.2023.04.007 Article Google Scholar Yu, J., Zhao, T., Li, M.: Combining monocular depth estimation with YOLO for pothole detection. Autom. Constr. 131, 103914 (2022) Google Scholar Barlow, J.L., Fisher, D.C.: Real-time pothole detection using monocular vision and CNNs. J. Intell. Transp. Syst. 26(7), 125137 (2022) Google Scholar Redmon, Farhadi A: YOLOv3: An Incremental Improvement Technical report 1804.02767, (2018) Google Scholar Download references Department of MCA, Jawaharlal Nehru New College of Engineering, Shimoga, Karnataka, India H. T. Manjunatha  K. L. Arunkumar Department of CSE, Jawaharlal Nehru New College of Engineering, Shimoga, Karnataka, India K. M. Poornima Department of Artificial Intelligence, City University, Ajman, UAE Ajit Danti Search author on:PubMed Google ...",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-96-9533-1_4",
+      "domain": "link.springer.com",
+      "author": "",
+      "date_published": "2025-11-20T00:00:00",
+      "query": "How Yolo in deep learning works",
+      "keywords": [
+        "yolo",
+        "deep",
+        "learning",
+        "works"
+      ],
+      "scraped_at": "2025-11-19T21:30:09.688135",
+      "content_length": 5003,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "Why Lifelong Learning Feeds the Soul - Psychology Today",
+      "content": "Posted July 11, 2025  Reviewed by Monica Vilhauer Ph.D. I have to admit it: Ive always been a nerd. I loved school. I loved university. And yes, Im seriously contemplating a PhD, not for career advancement, but simply for the joy of diving deep into learning for a few more years. Thankfully, in todays world, I dont need a formal degree to keep learning. Podcasts, books, online courses, and workshops  theyre all part of my daily life. Learning is a habit, not a phase. But Ill confess: there were times when I wondered if it was strange to feel this way. After all, not everyone seems driven by an insatiable hunger to learn. Of course, some of this comes down to personality and life experiences. Ive been fortunate to have an academic mind that thrived in educational settings. I also grew up across six countries, learning six languages and observing countless cultural nuances, which is an education in itself. And yet, at 38, this hunger to learn hasnt faded. If anything, it has intensified. There are days when I ache to grow. Why? Positive psychology gives us a compelling answer. Research shows that one of the most fundamental drivers of human happiness is personal growth. Abraham Maslow included self-actualization at the top of his hierarchy of needs, describing it as the process of realizing ones full potential and becoming the best version of oneself. Similarly, Deci and Ryans Self-Determination Theory emphasizes the importance of growth and mastery for well-being. Just as our bodies are in constant renewal through processes like cellular regeneration, our minds also crave a similar sense of evolution. When we learn something new, develop a skill, or stretch beyond our comfort zones, we nourish this innate drive for progress. Stagnation, in contrast, often leads to restlessness, frustration, or even depression. Modern positive psychology pioneer Martin Seligman talks about the importance of engagement and meaning as key pillars of a fulfilling life. Lifelong learning fuels both. Whether youre learning a new language, exploring a hobby, or reflecting on philosophy, you are actively crafting a richer, more meaningful life. If youre looking to cultivate lifelong learning in your own life, try these simple strategies: And remember what Albert Einstein once said: Intellectual growth should commence at birth and cease only at death. Lifelong learning isnt just a hobby or a habit; its a fundamental part of being human. By embracing this continuous journey of growth, we not only nurture our minds but also enrich our sense of purpose and well-being throughout life. So, what new idea will you explore today? References Deci, E. L.,  Ryan, R. M. (2000). The what and why of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11(4), 227268. Maslow, A. H. (1943). A theory of human motivation. Psychological Review, 50(4), 370396. Seligman, M. E. P. (2011). Flourish: A visionary new understanding of happiness and well-being. New York: Free Press.",
+      "url": "https://www.psychologytoday.com/us/blog/the-path-to-passionate-happiness/202507/why-lifelong-learning-feeds-the-soul?msockid=086a4f41c2736a0d123759e8c39d6bd9",
+      "domain": "psychologytoday.com",
+      "author": "",
+      "date_published": "2025-11-19T21:30:04.665142",
+      "query": "How Yolo in deep learning works",
+      "keywords": [
+        "yolo",
+        "deep",
+        "learning",
+        "works"
+      ],
+      "scraped_at": "2025-11-19T21:30:04.690080",
+      "content_length": 3019,
+      "relevance_score": 0.8
+    },
+    {
+      "title": "Why Lifelong Learning Feeds the Soul - Psychology Today",
+      "content": "Posted July 11, 2025  Reviewed by Monica Vilhauer Ph.D. I have to admit it: Ive always been a nerd. I loved school. I loved university. And yes, Im seriously contemplating a PhD, not for career advancement, but simply for the joy of diving deep into learning for a few more years. Thankfully, in todays world, I dont need a formal degree to keep learning. Podcasts, books, online courses, and workshops  theyre all part of my daily life. Learning is a habit, not a phase. But Ill confess: there were times when I wondered if it was strange to feel this way. After all, not everyone seems driven by an insatiable hunger to learn. Of course, some of this comes down to personality and life experiences. Ive been fortunate to have an academic mind that thrived in educational settings. I also grew up across six countries, learning six languages and observing countless cultural nuances, which is an education in itself. And yet, at 38, this hunger to learn hasnt faded. If anything, it has intensified. There are days when I ache to grow. Why? Positive psychology gives us a compelling answer. Research shows that one of the most fundamental drivers of human happiness is personal growth. Abraham Maslow included self-actualization at the top of his hierarchy of needs, describing it as the process of realizing ones full potential and becoming the best version of oneself. Similarly, Deci and Ryans Self-Determination Theory emphasizes the importance of growth and mastery for well-being. Just as our bodies are in constant renewal through processes like cellular regeneration, our minds also crave a similar sense of evolution. When we learn something new, develop a skill, or stretch beyond our comfort zones, we nourish this innate drive for progress. Stagnation, in contrast, often leads to restlessness, frustration, or even depression. Modern positive psychology pioneer Martin Seligman talks about the importance of engagement and meaning as key pillars of a fulfilling life. Lifelong learning fuels both. Whether youre learning a new language, exploring a hobby, or reflecting on philosophy, you are actively crafting a richer, more meaningful life. If youre looking to cultivate lifelong learning in your own life, try these simple strategies: And remember what Albert Einstein once said: Intellectual growth should commence at birth and cease only at death. Lifelong learning isnt just a hobby or a habit; its a fundamental part of being human. By embracing this continuous journey of growth, we not only nurture our minds but also enrich our sense of purpose and well-being throughout life. So, what new idea will you explore today? References Deci, E. L.,  Ryan, R. M. (2000). The what and why of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11(4), 227268. Maslow, A. H. (1943). A theory of human motivation. Psychological Review, 50(4), 370396. Seligman, M. E. P. (2011). Flourish: A visionary new understanding of happiness and well-being. New York: Free Press.",
+      "url": "https://www.psychologytoday.com/us/blog/the-path-to-passionate-happiness/202507/why-lifelong-learning-feeds-the-soul?msockid=0045f34ca9616bde28e2e5e5a8d26ac4",
+      "domain": "psychologytoday.com",
+      "author": "",
+      "date_published": "2025-11-19T21:30:06.054057",
+      "query": "How Yolo in deep learning works",
+      "keywords": [
+        "yolo",
+        "deep",
+        "learning",
+        "works"
+      ],
+      "scraped_at": "2025-11-19T21:30:06.078688",
+      "content_length": 3019,
+      "relevance_score": 0.8
+    },
+    {
+      "title": "What Is Learning ? - Verywell Mind",
+      "content": "Cognitive, Operant, Classical, Operational, Latent: What Do They Mean? Kendra Cherry, MS, is a psychosocial rehabilitation specialist, psychology educator, and author of the Everything Psychology Book. Amy Morin, LCSW, is a psychotherapist and international bestselling author. Her books, including 13 Things Mentally Strong People Dont Do, have been translated into more than 40 languages. Her TEDx talk, The Secret of Becoming Mentally Strong, is one of the most viewed talks of all time. Learning is a relatively lasting change in behavior resulting from observation and experience. It is the acquisition of information, knowledge, and problem-solving skills. When you think of learning, its easy to focus on formal education that takes place during childhood and early adulthood. However, learning is an ongoing process that takes place throughout life and isnt confined to the classroom. Learning became a significant focus of study in psychology during the early part of the twentieth century as behaviorism rose to become a major school of thought. Today, learning remains an important concept in numerous areas of psychology, including cognitive, educational, social, and developmental psychology. Psychologists study how learning occurs, as well as how social, emotional, cultural, and biological variables might influence the learning process. Even if you learn something relatively quickly, it is still a multi-step process. To learn, you must encounter new information, pay attention to it, coordinate it with what you already know, store it in your memory, and apply it. For example, say you want to fix a running toilet. You might search for a how-to video, watch it to see if it addresses your need, and then use the instructions to make the repair. Or, consider a time when you came across an unfamiliar word while reading. If you stopped to look up the meaning, then you learned a new word. The term active learning is often used to describe an interactive process, such as doing a hands-on experiment to learn a concept rather than reading about it. But passive learning (reading a text, listening to a lecture, watching a movie) is still learning and can be just as effective. Learning means retaining the knowledge that you gained. If you see that new vocabulary word in another context, you will understand its meaning. If the toilet starts running again in the future, you may need to watch the video again to refresh your memory on how to fix it, but you have some knowledge of what to do. The learning process begins when you have a new experience, whether that is reading a new word, listening to someone explain a concept, or trying a new method for solving a problem. Once youve tried a technique for boiling eggs or a different route to work, you can determine whether it works for you and then use it in the future. Theres far more to learning than book learning. Yes, you can learn new words, concepts, and facts. But you can also learn how to do things and how to feel about things. Its important to remember that learning can involve both beneficial and negative behaviors. Learning is a natural and ongoing part of life that takes place continually, both for better and for worse. Sometimes learning means becoming more knowledgeable and leading a better life. In other instances, it means learning behaviors that are detrimental to health and well-being. The process of learning is not always the same. Learning can happen in a wide variety of ways. To explain how and when learning occurs, psychologists have proposed a number of different theories. Learning through association is one of the most fundamental ways that people learn new things. Russian physiologist Ivan Pavlov discovered one method of learning during his experiments on the digestive systems of dogs. He noted that the dogs would naturally salivate at the sight of food but that, eventually, the dogs also began to salivate whenever they spotted the experimenters white lab coat. Later experiments involved pairing the sight of food with the sound of a bell tone. After multiple pairings, the dogs eventually began to salivate to the sound of the bell alone. Classical conditioning is a type of learning that takes place through the formation of associations. An unconditioned stimulus that naturally and automatically triggers a response is paired with a neutral stimulus. Eventually, an association forms, and the previously neutral stimulus becomes known as a conditioned stimulus that then triggers a conditioned response. The consequences of your actions can also play a role in determining how and what you learn. Behaviorist B.F. Skinner noted that while classical conditioning could explain some types of learning, it could not account for everything. Instead, he suggested that reinforcements and punishments were responsible for some types of learning. When something immediately follows a behavior, it can either increase or decrease the likelihood that the behavior will occur again in...",
+      "url": "https://www.verywellmind.com/what-is-learning-2795332",
+      "domain": "verywellmind.com",
+      "author": "",
+      "date_published": "2025-11-19T21:30:06.875143",
+      "query": "How Yolo in deep learning works",
+      "keywords": [
+        "yolo",
+        "deep",
+        "learning",
+        "works"
+      ],
+      "scraped_at": "2025-11-19T21:30:06.917681",
+      "content_length": 5003,
+      "relevance_score": 0.7
+    },
+    {
+      "title": "New Scientist Science news, articles, and features",
+      "content": "News Features News Sign-up to our expert-curated newsletters, delivered direct to your inbox on a daily, weekly or monthly basis Analysis News News Video News News Sign-up to our expert-curated newsletters, delivered direct to your inbox on a daily, weekly or monthly basis Advertisement Features New Scientist covers the latest developments in science, technology, health and the environment Features Features Features Features Regulars Comment Surprising new biography of Francis Crick unravels the story of DNA Is a deadly asteroid about to hit Earth? Meet the man who can tell you Why giving up on goals is good for you, and how to know which to ditch Women have supercharged immune systems and we now know why Features Features Features Features Comment Features Features Features Svalbard, Norway 17-28 June 2026 Online 25 November 2025 Online 2 December 2025 Online 14 January 2026 Podcast Podcast Podcast New episodes every week, available wherever you listen to podcasts Video Video Video Video Video Video CoLab with ViiV CoLab with ViiV CoLab with Sage CoLab with Deep Advertisement",
+      "url": "https://www.newscientist.com/",
+      "domain": "newscientist.com",
+      "author": "",
+      "date_published": "2025-11-19T21:30:10.762955",
+      "query": "How Yolo in deep learning works",
+      "keywords": [
+        "yolo",
+        "deep",
+        "learning",
+        "works"
+      ],
+      "scraped_at": "2025-11-19T21:30:10.807265",
+      "content_length": 1093,
+      "relevance_score": 0.5
+    }
+  ]
+}

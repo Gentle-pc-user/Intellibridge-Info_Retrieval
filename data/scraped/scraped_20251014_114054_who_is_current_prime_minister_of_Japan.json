@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "query": "who is current prime minister of Japan?",
+    "domain": "general",
+    "scraped_at": "2025-10-14T11:40:54.099326",
+    "article_count": 5,
+    "total_content_length": 3316
+  },
+  "articles": [
+    {
+      "title": "Todays Top Japan and World News NHK WORLD - JAPAN News",
+      "content": "",
+      "url": "https://www3.nhk.or.jp/nhkworld/en/news/",
+      "domain": "www3.nhk.or.jp",
+      "author": "",
+      "date_published": "2025-10-14T11:40:43.062817",
+      "query": "who is current prime minister of Japan?",
+      "keywords": [
+        "Japan",
+        "Prime Minister",
+        "Fumio Kishida"
+      ],
+      "scraped_at": "2025-10-14T11:40:43.063729",
+      "content_length": 0,
+      "relevance_score": 0.4
+    },
+    {
+      "title": "Prime Minister (2025 film)",
+      "content": "Prime Minister is a 2025 documentary film about Jacinda Ardern, the prime minister of New Zealand from 2017 to 2023.3 The film is directed by Lindsay Utz and Michelle Walshe. It premiered in January 2025 at the Sundance Film Festival.4 The 102-minute film documents the five years of Arderns tenure,5 including both her political and private life.6 It contains audio recordings of the Political Diaries project of the Alexander Turnbull Library and home videos recorded by Arderns husband Clarke Gayford.7 The film includes information on the Christchurch mosque shootings, the 2019 Whakaari  White Island eruption and the COVID-19 pandemic.89 After Ardern resigned from her role as prime minister in 2023, Dark Doris Entertainment asked Ardern for permission to create a documentary about her. Ardern agreed and Dark Doris Entertainment was given Gayfords recordings for use in the film.105 She later said that I was sometimes a reluctant participant.5 Ardern has said that she supports the film because it did not use funding by the New Zealand Film Commission.7 The documentary was publicly announced in June 2024,11 and premiered in January 2025 at the Sundance Film Festival,7 where it won the Audience Award for World Cinema Documentary.12 The film was co-produced by the companies MWM and Dark Doris Entertainment. It was directed by New Zealander Michelle Walshe and American Lindsay Utz and produced by Cass Avery, Leon Kirkbeck, Clarke Gayford, Gigi Pritzker, Rachel Shane and Katie Peck.813 Gayford has also been named a director of photography but was not involved in the directing or the editing.14 In May 2025, Magnolia Pictures, HBO Documentary Films and CNN Films acquired distribution rights to the film, setting it for a 13 June 2025 release in the United States.1516 It is expected for release in New Zealand on 25 September 2025.17 The film received positive reviews. On the review aggregator website Rotten Tomatoes, 94 of 35 critics reviews are positive.18 Metacritic, which uses a weighted average, assigned the film a score of 74 out of 100, based on eight critics, indicating generally favorable reviews.19 After watching the film, Ardern said that I cried through most of it, and Im not sure if thats equivalent to laughing at your own jokes. I was very emotional watching it. I credit the storytellers for it.7 She has also said that The film-makers took the opportunity to tell the whole story  the highs, the lows, the good, the bad, and the ugly.20 Film critic Caryn James wrote for The Hollywood Reporter that It would be a bit of an exaggeration, but just a bit, to say it trolls Donald Trump ... it includes deliberate, pointed contrasts that position Ardern as the American leaders exact opposite in their approaches and objectives.218",
+      "url": "https://en.wikipedia.org/wiki/Prime_Minister_(2025_film)",
+      "domain": "en.wikipedia.org",
+      "author": "",
+      "date_published": "2025-10-14T11:40:38.802428",
+      "query": "who is current prime minister of Japan?",
+      "keywords": [
+        "Japan",
+        "Prime Minister",
+        "Fumio Kishida"
+      ],
+      "scraped_at": "2025-10-14T11:40:38.826853",
+      "content_length": 2769,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "Kinoshita Group Japan Open 2025 Overview WTA Official",
+      "content": "The Kinoshita Group Japan Open, also known as the Japan Womens Open, is a WTA 250 event played on outdoor hard courts in Osaka, Japan. 32 singles players and 16 doubles teams compete at Utsubo Tennis Center, which holds 5,000 fans in its main stadium court. The Kinoshita Group Japan Open became a womens-only event for the first time in 2009. After a three-year hiatus, the event returned in 2023 at the WTA 250 level.",
+      "url": "https://www.wtatennis.com/tournaments/405/osaka/2025",
+      "domain": "wtatennis.com",
+      "author": "",
+      "date_published": "2025-10-14T11:40:38.665967",
+      "query": "who is current prime minister of Japan?",
+      "keywords": [
+        "Japan",
+        "Prime Minister",
+        "Fumio Kishida"
+      ],
+      "scraped_at": "2025-10-14T11:40:38.683281",
+      "content_length": 419,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "Wikipedia 2025 in Japan - Wikipedia",
+      "content": "  Events in the year 2025 in Japan. Media related to 2025 in Japan at Wikimedia Commons",
+      "url": "https://en.wikipedia.org/wiki/2025_in_Japan",
+      "domain": "en.wikipedia.org",
+      "author": "",
+      "date_published": "2025-10-14T11:40:49.636215",
+      "query": "who is current prime minister of Japan?",
+      "keywords": [
+        "Japan",
+        "Prime Minister",
+        "Fumio Kishida"
+      ],
+      "scraped_at": "2025-10-14T11:40:49.848046",
+      "content_length": 87,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "2025 Japan Womens Open Singles - Wikipedia",
+      "content": "Suzan Lamens is the defending champion.12",
+      "url": "https://en.wikipedia.org/wiki/2025_Japan_Women's_Open_–_Singles",
+      "domain": "en.wikipedia.org",
+      "author": "",
+      "date_published": "2025-10-14T11:40:40.890321",
+      "query": "who is current prime minister of Japan?",
+      "keywords": [
+        "Japan",
+        "Prime Minister",
+        "Fumio Kishida"
+      ],
+      "scraped_at": "2025-10-14T11:40:40.953261",
+      "content_length": 41,
+      "relevance_score": 0.2
+    }
+  ]
+}

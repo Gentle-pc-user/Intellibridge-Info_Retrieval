@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "query": "tell  latest news in  reasearch in robotics and ai",
+    "domain": "general",
+    "scraped_at": "2025-10-12T17:26:30.662632",
+    "article_count": 5,
+    "total_content_length": 0
+  },
+  "articles": [
+    {
+      "title": "Latest and Breaking News South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/live",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:53:17+00:00",
+      "query": "tell  latest news in  reasearch in robotics and ai",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "reasearch",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-12T17:26:26.468984",
+      "content_length": 0,
+      "relevance_score": 0.7
+    },
+    {
+      "title": "Singapore: Latest News and Updates South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/topics/singapore",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T09:00:08+00:00",
+      "query": "tell  latest news in  reasearch in robotics and ai",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "reasearch",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-12T17:26:27.884019",
+      "content_length": 0,
+      "relevance_score": 0.7
+    },
+    {
+      "title": "China Breaking News Headlines South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/news/china",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:01:29+00:00",
+      "query": "tell  latest news in  reasearch in robotics and ai",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "reasearch",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-12T17:26:29.686169",
+      "content_length": 0,
+      "relevance_score": 0.4
+    },
+    {
+      "title": "Hong Kong Breaking News Headlines South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/news/hong-kong",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:15:27+00:00",
+      "query": "tell  latest news in  reasearch in robotics and ai",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "reasearch",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-12T17:26:30.378011",
+      "content_length": 0,
+      "relevance_score": 0.4
+    },
+    {
+      "title": "知乎 - 有问题就会有答案",
+      "content": "",
+      "url": "https://www.zhihu.com/",
+      "domain": "zhihu.com",
+      "author": "",
+      "date_published": "2025-10-12T17:26:27.101136",
+      "query": "tell  latest news in  reasearch in robotics and ai",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "reasearch",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-12T17:26:27.107478",
+      "content_length": 0,
+      "relevance_score": 0.0
+    }
+  ]
+}

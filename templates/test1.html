@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudReader | Creative Audiobook Player</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+        :root {
+            --primary: #6c5ce7;
+            --secondary: #a29bfe;
+            --glass: rgba(255, 255, 255, 0.65);
+            --glass-border: rgba(255, 255, 255, 0.8);
+            --text: #2d3436;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            color: var(--text);
+            /* Dynamic Pastel Background */
+            background: linear-gradient(-45deg, #ffe259, #ffa751, #84fab0, #8fd3f4);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        /* Floating Background Shapes */
+        .blob {
+            position: absolute;
+            filter: blur(40px);
+            z-index: -1;
+            animation: float 10s infinite alternate;
+        }
+        .blob-1 { top: 10%; left: 10%; width: 300px; height: 300px; background: rgba(255, 200, 200, 0.6); border-radius: 40% 60% 70% 30%; }
+        .blob-2 { bottom: 10%; right: 10%; width: 350px; height: 350px; background: rgba(200, 255, 255, 0.6); border-radius: 60% 40% 30% 70%; animation-delay: -5s; }
+
+        /* Main Glass Card */
+        .container {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 2px solid var(--glass-border);
+            border-radius: 30px;
+            padding: 40px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #6c5ce7, #ff7675);
+            background-clip: text;
+            color: transparent;
+        }
+
+        p.subtitle { color: #636e72; margin-bottom: 30px; }
+
+        /* Upload Section */
+        .upload-area {
+            border: 2px dashed #b2bec3;
+            border-radius: 20px;
+            padding: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(255,255,255,0.4);
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary);
+            background: rgba(255,255,255,0.7);
+            transform: scale(1.02);
+        }
+
+        input[type="file"] { display: none; }
+
+        .icon { font-size: 3rem; color: var(--secondary); display: block; margin-bottom: 10px; }
+
+        /* Player Section (Hidden initially) */
+        .player-ui {
+            display: none; /* Hidden by default */
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .book-title {
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        /* Visualizer Bars */
+        .visualizer {
+            display: flex;
+            gap: 5px;
+            height: 60px;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .bar {
+            width: 8px;
+            background: var(--primary);
+            border-radius: 50px;
+            height: 10px;
+            transition: height 0.1s ease;
+        }
+        .playing .bar { animation: sound 0.5s infinite alternate; }
+        .playing .bar:nth-child(1) { animation-delay: 0.1s; }
+        .playing .bar:nth-child(2) { animation-delay: 0.3s; }
+        .playing .bar:nth-child(3) { animation-delay: 0.5s; }
+        .playing .bar:nth-child(4) { animation-delay: 0.2s; }
+        .playing .bar:nth-child(5) { animation-delay: 0.4s; }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        button.btn {
+            border: none;
+            background: var(--primary);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        button.btn:hover { transform: translateY(-3px); background: #5b4cc4; }
+        button.btn-sec { background: white; color: var(--text); }
+
+        .settings {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            background: rgba(255,255,255,0.5);
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        select {
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            background: transparent;
+        }
+
+        /* Animations */
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(20px, 40px) rotate(10deg); }
+        }
+
+        @keyframes sound {
+            0% { height: 10px; background: var(--secondary); }
+            100% { height: 50px; background: var(--primary); }
+        }
+        
+        .hidden { display: none !important; }
+        .show { display: flex !important; }
+
+    </style>
+</head>
+<body>
+
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="container">
+        <h1>CloudReader 🎧</h1>
+        <p class="subtitle">Turn your text files into audiobooks instantly.</p>
+
+        <div id="uploadSection" class="upload-area" onclick="document.getElementById('fileInput').click()">
+            <span class="icon">📂</span>
+            <h3>Click to upload Book</h3>
+            <p style="font-size: 0.8rem; color: #666;">Supports .txt files</p>
+            <input type="file" id="fileInput" accept=".txt">
+        </div>
+
+        <div id="playerSection" class="player-ui">
+            <div class="book-title" id="currentBook">Unknown Book</div>
+            
+            <div class="visualizer" id="visualizer">
+                <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                <div class="bar"></div><div class="bar"></div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-sec" onclick="resetPlayer()">⏹ Stop</button>
+                <button class="btn" id="playPauseBtn" onclick="togglePlay()">▶ Play</button>
+            </div>
+
+            <div class="settings">
+                <label>Speed:</label>
+                <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1" onchange="updateSettings()">
+                <select id="voiceSelect" onchange="updateSettings()"></select>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const uploadSection = document.getElementById('uploadSection');
+        const playerSection = document.getElementById('playerSection');
+        const fileInput = document.getElementById('fileInput');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const visualizer = document.getElementById('visualizer');
+        const voiceSelect = document.getElementById('voiceSelect');
+        
+        let synth = window.speechSynthesis;
+        let voices = [];
+        let currentText = "";
+        let utterance = null;
+        let isPlaying = false;
+        let isPaused = false;
+
+        // Initialize Voices
+        function populateVoices() {
+            voices = synth.getVoices();
+            voiceSelect.innerHTML = '';
+            voices.forEach((voice, index) => {
+                const option = document.createElement('option');
+                option.textContent = `${voice.name} (${voice.lang})`;
+                option.value = index;
+                voiceSelect.appendChild(option);
+            });
+        }
+        
+        populateVoices();
+        if (speechSynthesis.onvoiceschanged !== undefined) {
+            speechSynthesis.onvoiceschanged = populateVoices;
+        }
+
+        // Handle File Upload
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                currentText = e.target.result;
+                document.getElementById('currentBook').innerText = file.name;
+                
+                // Switch UI
+                uploadSection.classList.add('hidden');
+                playerSection.classList.add('show');
+            };
+            reader.readAsText(file);
+        });
+
+        // Play/Pause Logic
+        function togglePlay() {
+            if (!isPlaying) {
+                startSpeaking();
+            } else if (synth.paused) {
+                resumeSpeaking();
+            } else {
+                pauseSpeaking();
+            }
+        }
+
+        function startSpeaking() {
+            if (synth.speaking) synth.cancel();
+            
+            utterance = new SpeechSynthesisUtterance(currentText);
+            const selectedVoice = voices[voiceSelect.value];
+            utterance.voice = selectedVoice;
+            utterance.rate = document.getElementById('rate').value;
+
+            utterance.onend = () => {
+                isPlaying = false;
+                visualizer.classList.remove('playing');
+                playPauseBtn.textContent = "▶ Play";
+            };
+
+            synth.speak(utterance);
+            isPlaying = true;
+            updateUIState(true);
+        }
+
+        function pauseSpeaking() {
+            synth.pause();
+            isPaused = true;
+            updateUIState(false);
+        }
+
+        function resumeSpeaking() {
+            synth.resume();
+            isPaused = false;
+            updateUIState(true);
+        }
+
+        function stopSpeaking() {
+            synth.cancel();
+            isPlaying = false;
+            isPaused = false;
+            visualizer.classList.remove('playing');
+            playPauseBtn.textContent = "▶ Play";
+        }
+
+        function updateUIState(playing) {
+            if (playing) {
+                visualizer.classList.add('playing');
+                playPauseBtn.textContent = "⏸ Pause";
+            } else {
+                visualizer.classList.remove('playing');
+                playPauseBtn.textContent = "▶ Resume";
+            }
+        }
+
+        function updateSettings() {
+            if (isPlaying && !isPaused) {
+                // To update speed/voice mid-speech, we have to restart
+                synth.cancel();
+                startSpeaking();
+            }
+        }
+
+        function resetPlayer() {
+            stopSpeaking();
+            uploadSection.classList.remove('hidden');
+            playerSection.classList.remove('show');
+            fileInput.value = ''; // Clear input
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "query": "tell me latest news realted india and china relations",
+    "domain": "general",
+    "scraped_at": "2025-10-12T17:17:24.082252",
+    "article_count": 5,
+    "total_content_length": 0
+  },
+  "articles": [
+    {
+      "title": "Latest and Breaking News South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/live",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:29:31+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:19.437522",
+      "content_length": 0,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "Singapore: Latest News and Updates South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/topics/singapore",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T09:00:08+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:20.655107",
+      "content_length": 0,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "China Breaking News Headlines South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/news/china",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:01:29+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:23.449970",
+      "content_length": 0,
+      "relevance_score": 0.6
+    },
+    {
+      "title": "Hong Kong Breaking News Headlines South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/news/hong-kong",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:15:27+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:24.080250",
+      "content_length": 0,
+      "relevance_score": 0.6
+    },
+    {
+      "title": "知乎 - 有问题就会有答案",
+      "content": "",
+      "url": "https://www.zhihu.com/",
+      "domain": "zhihu.com",
+      "author": "",
+      "date_published": "2025-10-12T17:17:20.681183",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:20.684719",
+      "content_length": 0,
+      "relevance_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "query": "What are the benefits of artificial intelligence in healthcare?",
+    "domain": "general",
+    "scraped_at": "2025-10-12T16:56:29.740321",
+    "article_count": 3,
+    "total_content_length": 0
+  },
+  "articles": [
+    {
+      "title": "How to use the IRC support channel - ArtificialAiming",
+      "content": "",
+      "url": "https://www.artificialaiming.net/forum/client_livesupport.php",
+      "domain": "artificialaiming.net",
+      "author": "",
+      "date_published": "2025-10-12T16:56:24.967495",
+      "query": "What are the benefits of artificial intelligence in healthcare?",
+      "keywords": [
+        "benefits",
+        "artificial",
+        "intelligence",
+        "healthcare"
+      ],
+      "scraped_at": "2025-10-12T16:56:24.977720",
+      "content_length": 0,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "Gears of War 4 Hacks - GoW4 Hacks - ArtificialAiming",
+      "content": "",
+      "url": "https://www.artificialaiming.net/forum/news/127595-gears-war-4-hacks-gow4-hacks.html",
+      "domain": "artificialaiming.net",
+      "author": "",
+      "date_published": "2025-10-12T16:56:25.609528",
+      "query": "What are the benefits of artificial intelligence in healthcare?",
+      "keywords": [
+        "benefits",
+        "artificial",
+        "intelligence",
+        "healthcare"
+      ],
+      "scraped_at": "2025-10-12T16:56:25.619765",
+      "content_length": 0,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "Hacks and Cheats - ArtificialAiming",
+      "content": "",
+      "url": "https://www.artificialaiming.net/forum/hacks-cheats/",
+      "domain": "artificialaiming.net",
+      "author": "",
+      "date_published": "2025-10-12T16:56:28.455398",
+      "query": "What are the benefits of artificial intelligence in healthcare?",
+      "keywords": [
+        "benefits",
+        "artificial",
+        "intelligence",
+        "healthcare"
+      ],
+      "scraped_at": "2025-10-12T16:56:28.465296",
+      "content_length": 0,
+      "relevance_score": 0.2
+    }
+  ]
+}

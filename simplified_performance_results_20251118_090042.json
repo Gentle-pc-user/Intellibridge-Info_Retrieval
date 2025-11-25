@@ -1,0 +1,198 @@
+{
+  "keyword_extraction": {
+    "total_queries": 5,
+    "successful_queries": 5,
+    "avg_execution_time": 2.5,
+    "min_execution_time": 2.5,
+    "max_execution_time": 2.5,
+    "avg_relevance_score": 0.6,
+    "avg_keyword_count": 5,
+    "detailed_results": [
+      {
+        "query": "current prime minister of Japan",
+        "execution_time": 2.5,
+        "keyword_count": 5,
+        "keywords": [
+          "current",
+          "latest",
+          "news",
+          "developments",
+          "recent"
+        ],
+        "relevance_score": 0.6,
+        "quality_issues": [
+          "Generic keywords"
+        ]
+      },
+      {
+        "query": "latest AI developments 2024",
+        "execution_time": 2.5,
+        "keyword_count": 5,
+        "keywords": [
+          "current",
+          "latest",
+          "news",
+          "developments",
+          "recent"
+        ],
+        "relevance_score": 0.6,
+        "quality_issues": [
+          "Generic keywords"
+        ]
+      },
+      {
+        "query": "Trump tariffs recent news",
+        "execution_time": 2.5,
+        "keyword_count": 5,
+        "keywords": [
+          "current",
+          "latest",
+          "news",
+          "developments",
+          "recent"
+        ],
+        "relevance_score": 0.6,
+        "quality_issues": [
+          "Generic keywords"
+        ]
+      },
+      {
+        "query": "quantum computing breakthroughs",
+        "execution_time": 2.5,
+        "keyword_count": 5,
+        "keywords": [
+          "current",
+          "latest",
+          "news",
+          "developments",
+          "recent"
+        ],
+        "relevance_score": 0.6,
+        "quality_issues": [
+          "Generic keywords"
+        ]
+      },
+      {
+        "query": "Russia Ukraine conflict latest",
+        "execution_time": 2.5,
+        "keyword_count": 5,
+        "keywords": [
+          "current",
+          "latest",
+          "news",
+          "developments",
+          "recent"
+        ],
+        "relevance_score": 0.6,
+        "quality_issues": [
+          "Generic keywords"
+        ]
+      }
+    ]
+  },
+  "websearch": {
+    "total_queries": 3,
+    "successful_queries": 3,
+    "avg_execution_time": 0.4562695821126302,
+    "min_execution_time": 0.39974021911621094,
+    "max_execution_time": 0.541262149810791,
+    "avg_relevance_score": 0.23566666666666666,
+    "avg_result_count": 6.666666666666667,
+    "duplicate_rate": 0.0,
+    "detailed_results": [
+      {
+        "query": "current prime minister of Japan",
+        "execution_time": 0.541262149810791,
+        "result_count": 10,
+        "unique_domains": 1,
+        "duplicate_urls": 0,
+        "avg_snippet_length": 182.1,
+        "relevance_score": 0.492
+      },
+      {
+        "query": "latest AI developments 2024",
+        "execution_time": 0.42780637741088867,
+        "result_count": 0,
+        "unique_domains": 0,
+        "duplicate_urls": 0,
+        "avg_snippet_length": 0,
+        "relevance_score": 0.0
+      },
+      {
+        "query": "Trump tariffs recent news",
+        "execution_time": 0.39974021911621094,
+        "result_count": 10,
+        "unique_domains": 1,
+        "duplicate_urls": 0,
+        "avg_snippet_length": 167.7,
+        "relevance_score": 0.215
+      }
+    ]
+  },
+  "scraping": {
+    "total_tests": 1,
+    "successful_tests": 1,
+    "avg_execution_time": 0.4562091827392578,
+    "success_rate": 1.0,
+    "avg_content_length": 0.0,
+    "cleanliness_rate": 0.0,
+    "detailed_results": [
+      {
+        "urls_tested": 2,
+        "execution_time": 0.4562091827392578,
+        "successful_scrapes": 2,
+        "total_content_length": 0,
+        "avg_content_length": 0.0,
+        "cleanliness_rate": 0.0,
+        "scraped_results": [
+          {
+            "url": "https://www.reuters.com/world/",
+            "error": "HTTP 401",
+            "content_length": 0,
+            "is_clean": false
+          },
+          {
+            "url": "https://www.bbc.com/news",
+            "error": "name 'BeautifulSoup' is not defined",
+            "content_length": 0,
+            "is_clean": false
+          }
+        ]
+      }
+    ]
+  },
+  "response_generation": {
+    "total_queries": 3,
+    "successful_queries": 3,
+    "success_rate": 1.0,
+    "avg_execution_time": 8.5,
+    "min_execution_time": 8.5,
+    "max_execution_time": 8.5,
+    "avg_response_length": 500,
+    "detailed_results": [
+      {
+        "query": "current prime minister of Japan",
+        "execution_time": 8.5,
+        "response_length": 500,
+        "has_meaningful_content": true,
+        "response_preview": "This is a mock response for demonstration purposes..."
+      },
+      {
+        "query": "latest AI developments 2024",
+        "execution_time": 8.5,
+        "response_length": 500,
+        "has_meaningful_content": true,
+        "response_preview": "This is a mock response for demonstration purposes..."
+      },
+      {
+        "query": "Trump tariffs recent news",
+        "execution_time": 8.5,
+        "response_length": 500,
+        "has_meaningful_content": true,
+        "response_preview": "This is a mock response for demonstration purposes..."
+      }
+    ]
+  },
+  "end_to_end": [],
+  "component_performance": {}
+}

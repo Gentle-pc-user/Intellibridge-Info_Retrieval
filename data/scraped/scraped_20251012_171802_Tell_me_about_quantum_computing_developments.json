@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "query": "Tell me about quantum computing developments",
+    "domain": "general",
+    "scraped_at": "2025-10-12T17:18:02.070097",
+    "article_count": 4,
+    "total_content_length": 7480
+  },
+  "articles": [
+    {
+      "title": "Japanese joint research group launches quantum computing",
+      "content": "RIKEN National Institute of Advanced Industrial Science and Technology (AIST) National Institute of Information and Communications Technology (NICT) Osaka University Fujitsu Limited Nippon Telegraph and Telephone Corporation (NTT) Tokyo, March 24, 2023 - A consortium of joint research partners including RIKEN, the National Institute of Advanced Industrial Science and Technology (AIST), the National Institute of Information and Communications Technology (NICT), Osaka University, Fujitsu Limited (Fujitsu) and Nippon Telegraph and Telephone Corporation (NTT) announced the successful development of Japans first superconducting quantum computer. Starting March 27, 2023, the partners will provide the newly developed technology to users in Japan as a cloud service for non-commercial use under a joint research agreement with RIKEN. The new technology represents a significant step toward the wider use of quantum computing in Japan. The joint research group is comprised of: Dr. Yasunobu Nakamura, Director of the RIKEN Center for Quantum Computing (RQC), Dr. Katsuya Kikuchi, Group Leader of the 3D Integration System Group of the Device Technology Research Institute at AIST, Dr. Hirotaka Terai, Director of the Superconductive ICT Device Laboratory at the Kobe Frontier Research Center of the Advanced ICT Research Institute of NICT, Dr. Masahiro Kitagawa, Director of the Center for Quantum Information and Quantum Biology at Osaka University, Dr. Shintaro Sato, Head of the Quantum Laboratory at Fujitsu Research of Fujitsu, and Dr. Yuuki Tokunaga, Distinguished Researcher at NTT Computer  Data Science Laboratories. Since the early twentieth century, quantum mechanics has been attracting attention as a fundamental theory of physics, laying the foundation for the development of various scientific fields. In particular, phenomena including quantum superposition and quantum entanglement have contributed significantly to the development of todays science and technology. From the perspective of quantum information science, however, the potential of quantum mechanics has not yet been fully exploited. Thus, RD to apply the fundamental principles of quantum mechanics to the technological fields of computation, communications, and measurement have been gaining momentum worldwide. To further promote research in quantum information science, RIKEN established the Macroscopic Quantum Coherence Research Team under the lead of Dr. Jaw-Shen Tsai in 2001, and the RIKEN Center for Quantum Computing under the lead of Dr. Yasunobu Nakamura in 2021, focusing on RD in quantum computing. The Center for Quantum Computing conducts RD not only on superconducting quantum computer hardware, but also on various physical systems including photonics research (led by Dr. Akira Furusawa), semiconductor methods (led by Dr. Seigo Tarucha), and methods using atoms in a vacuum. RIKEN is further promoting RD in quantum software including quantum computing theory, quantum algorithms and quantum architecture, thus covering the entire spectrum of RD in quantum computing. In 2021, RIKEN and Fujitsu established the RIKEN RQC-Fujitsu Collaboration Center within the RQC. Research results were also utilized within the newly developed superconducting quantum computer cloud service. RIKEN and Fujitsu will further leverage their expertise in computing technologies and applied quantum technology to provide a superconducting quantum computer for industrial use by the end of FY 2023. The newly developed superconducting quantum computer uses integrated circuits with 64 qubits with two special features: two-dimensional integrated circuits and perpendicular wiring packages. In the two-dimensional integrated circuits, four qubits are arrayed in a square, with each connected to its neighbors by inter-qubit connections (upper right of Fig. 1). In addition, readout resonators and filter circuits for multiple readout are arranged in the square. This basic unit consisting of four qubits can be arranged in two dimensions to form a qubit integrated circuit. The 64 qubit integrated circuit consists of 16 of these basic units formed on a two centimeter square silicon chip (Fig. 1). Furthermore, if the wiring is on the same planar surface as the qubits in the system, the space of the wiring to the outside is insufficient for the number of qubits arrayed in the chip, so it is necessary to devise methods to control individual qubits and wiring for readout. Therefore, the joint research group adopted a design based on perpendicular wiring packages, in which the wiring to the chip for the qubits arrayed on a two-dimensional planar surface is perpendicularly connected. The research team is further developing a wiring package that enables the wiring to the qubit integrated circuit chip at once (Fig. 2). Taking advantage of the features of the two-dimensional integrated circuits and perpendicular wiring packages, a highly scalable system is formed in which the number of qubits can be easily incr...",
+      "url": "https://www.nict.go.jp/en/topics/2023/04/13-1.html",
+      "domain": "nict.go.jp",
+      "author": "",
+      "date_published": "2023-04-13T00:00:00",
+      "query": "Tell me about quantum computing developments",
+      "keywords": [
+        "tell",
+        "about",
+        "quantum",
+        "computing",
+        "developments"
+      ],
+      "scraped_at": "2025-10-12T17:17:58.529221",
+      "content_length": 5003,
+      "relevance_score": 0.6
+    },
+    {
+      "title": "量子セキュアクラウドと量子コンピュータの統合実証に成功20",
+      "content": "国立研究開発法人情報通信研究機構 国立研究開発法人理化学研究所 国立大学法人大阪大学 株式会社QunaSys なお本研究の一部は内閣府総合科学技術イノベーション会議の戦略的イノベーション創造プログラムSIP先進的量子技術基盤の社会課題への応用促進研究推進法人: QSTの研究開発テーマの量子セキュアクラウドを用いた高度情報処理基盤の構築と国産量子コンピュータによるテストベッドの利用環境整備と運用によって実施されました 量子セキュアクラウド 量子暗号技術と秘密分散技術を融合したクラウドシステムでありデータの安全な流通保管利活用を可能とする量子コンピュータとの連携により改ざん解読が不可能な高いセキュリティ性を担保するだけでなく例えば金融製造交通物流管理創薬化学分野で蓄積された個人情報や企業情報など秘匿性の高いデータの分析処理を含めた利活用が期待されている 元の記事へ 量子コンピュータ 量子力学の原理を利用した現在の古典コンピュータとは異なる方式で動くコンピュータ古典コンピュータとは動作原理が異なるため特定の問題を超高速で解けることが知られている例えば量子系の効率的なシミュレーションや素因数分解などの問題が高速に解けると期待されている 元の記事へ 東京QKDネットワーク NICTが2010年から東京圏に構築運用を続けている量子鍵配送Quantum Key Distribution: QKDネットワークのテストベッドNEC東芝NTT-NICT学習院大学などの様々な産学機関で開発されたQKD装置が導入され装置改良の研究開発長期運用試験相互接続やネットワーク運用試験などQKDネットワーク技術の実用化に向けた研究開発のほかQKDネットワークを現代セキュリティ技術と融合した新しいセキュリティアプリケーションの研究開発などを進めている 元の記事へ 量子暗号 量子暗号は量子鍵配送による暗号鍵の共有とそれを用いたワンタイムパッド暗号から構成される量子鍵配送では送信者が光子を変調情報を付加して伝送し受信者は届いた光子一個一個の状態を検出し鍵蒸留と呼ばれる情報処理により盗聴の可能性のあるビットを排除して絶対安全な暗号鍵暗号化のための乱数列を送受信者間で共有する変調を施された光子レベルの信号は測定操作をすると必ずその痕跡が残るハイゼンベルクの不確定性原理ためこの原理を利用して盗聴を見破るワンタイムパッド暗号では送信情報のデジタルデータをそれと同じ長さの暗号鍵0と1のランダムなビット列と足し算することで暗号化し復号は更にもう一度足し算をすることで行うパッドとは暗号鍵を意味する一度使用した乱数列は二度と使わないというのがワンタイムパッド暗号の規則であるワンタイムパッド暗号は解読が絶対的に不可能であることがシャノンにより証明されている 元の記事へ ミドルウェア ミドルウェアではユーザー認証量子計算プログラムデータのスケジューリング管理量子コンピュータ実機で利用できる形式への変換等を行う 元の記事へ 国立研究開発法人情報通信研究機構 量子ICT協創センター 藤原 幹生 国立研究開発法人理化学研究所 量子コンピュータ研究センター 萬 伸一 大阪大学量子情報量子生命研究センター 森 俊夫 株式会社QunaSys 広報担当 国立研究開発法人情報通信研究機構 広報部 報道室 国立研究開発法人理化学研究所 広報室 報道担当 大阪大学量子情報量子生命研究センター 企画室 プレスリリース窓口 株式会社QunaSys 広報担当 Copyright  National Institute of Information and Communications Technology. All Rights Reserved.",
+      "url": "https://www.nict.go.jp/press/2025/03/13-1.html",
+      "domain": "nict.go.jp",
+      "author": "",
+      "date_published": "2025-10-12T17:17:58.695094",
+      "query": "Tell me about quantum computing developments",
+      "keywords": [
+        "tell",
+        "about",
+        "quantum",
+        "computing",
+        "developments"
+      ],
+      "scraped_at": "2025-10-12T17:17:58.738415",
+      "content_length": 1560,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "概要 NICT-情報通信研究機構",
+      "content": "現代の情報技術の基礎となっているデジタル情報0, 1は外界からの操作がなければ0は未来永劫0であり１は未来永劫１でなければなりませんところが原子スケールの世界では０でもあり１でもあるような情報を作ることができます20世紀の終わりには人間の手が原子スケールの現象を直接制御できるようになりさらに光を媒介にして数10kmも離れた地点であたかも分子のそれぞれの片方の原子を共有しているような状態さえ手に入れることが可能になって来ましたこれまでパラドックスのように見えていた量子力学的現象が直接実験で検証されさらに情報技術において従来には類似のない転送技術や暗号技術信号処理技術へ応用できることが分かってきましたいまや量子力学は情報の中心概念と深く関わるものとなったのです 量子力学は２つの基本原理があります１つは不確定性原理で粒子の位置と速度を同時に正確に決定することは出来ないというものです言い換えると対象に外乱を与えずに正確な測定をすることは不可能ですもう１つは重ね合わせの原理で粒子が異なる複数の状態を同時にとることができるというものです しかし幸運にももう一つの原理不確定性原理がこの危機を救ってくれますこの原理を拡張することで盗聴の完全な検知が可能になり量子計算でも破ることが出来ない無条件安全な量子暗号という技術が可能になります1982年にアメリカのチャールズベネットとカナダのジルブラサールによって提案され現在実用化に最も近い量子情報通信技術として研究開発が進んでいます",
+      "url": "https://www.nict.go.jp/quantum/about/overview.html",
+      "domain": "nict.go.jp",
+      "author": "",
+      "date_published": "2025-10-12T17:18:00.413518",
+      "query": "Tell me about quantum computing developments",
+      "keywords": [
+        "tell",
+        "about",
+        "quantum",
+        "computing",
+        "developments"
+      ],
+      "scraped_at": "2025-10-12T17:18:00.449971",
+      "content_length": 639,
+      "relevance_score": 0.0
+    },
+    {
+      "title": "量子ICT研究室 NICT-情報通信研究機構",
+      "content": "研究成果英文査読誌一覧ページへ NICT 量子ICT協創センター このウェブサイトで利用されているビデオ資料はNICTによって所有され 著作権によって保護されていますこのビデオのいかなる部分もNICTの書面による事前の同意なしに複写したり個人的な利用やいかなる目的でさえ無許可にコピーしたり営利的又は非商業的な普及のためにこのビデオの内容を複製したりする事は著作権の侵害として禁止されています 研究室室長 加藤 豪 184-8795 東京都小金井市貫井北町 4-2-1 TEL: 042-327-6051 FAX: 042-327-6629 E-mail:",
+      "url": "https://www.nict.go.jp/quantum/",
+      "domain": "nict.go.jp",
+      "author": "",
+      "date_published": "2025-10-12T17:17:59.314170",
+      "query": "Tell me about quantum computing developments",
+      "keywords": [
+        "tell",
+        "about",
+        "quantum",
+        "computing",
+        "developments"
+      ],
+      "scraped_at": "2025-10-12T17:17:59.383905",
+      "content_length": 278,
+      "relevance_score": 0.0
+    }
+  ]
+}

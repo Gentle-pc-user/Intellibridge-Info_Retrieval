@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "query": "What are the types of Machine learning algorithms",
+    "domain": "general",
+    "scraped_at": "2025-10-13T18:27:37.930374",
+    "article_count": 5,
+    "total_content_length": 6132
+  },
+  "articles": [
+    {
+      "title": "Types of followed by singular or plural? duplicate",
+      "content": "Teams QA for work Connect and share knowledge within a single location that is structured and easy to search. Possible Duplicate: Types of things vs. types of thing When using the phrase types of or kinds of, it often seems appropriate to follow with a singular noun (e.g., types of rock), but at other times a plural noun sounds better (e.g., types of sentences). Is there some kind of rule about this? I think your essential concern is about countable vs. uncountable nouns. Countable nouns can be singular or plural; uncountable nouns are singular. Some words can be both, in different meanings. Take a look at this example discussing countable and uncountable nouns: The coffees I prefer are Arabica and Brazilian. (Here coffees refers to different types of coffee) You could write, The types of coffee I prefer are Arabica and Brazilian. So with your example: The rocks I like are basalt and granite. Rocks are countable The types of rock I like are basalt and granite. Rock is uncountable When rock is taking on the uncountable meaning, its not one rock - its the idea of rock, the general concept. The only senses in which this is familiar to me are the solid mineral one and rock as in rock music, where you might say, The types of rock I like are grunge and punk. Contrast the other part of your example: The sentences I like are about geology. Sentences are countable The types of sentences I like are about geology. Sentences are still countable Sentences dont have an uncountable meaning: The types of sentence I like are about geology. Ungrammatical for most speakers, I think Heres a rule of thumb with which to decide the correct usage in any given case. Turn the phrase around: I like all kinds of music  I like music of all kinds I like all kinds of apple  I like apple of all kinds I like all kinds of apples  I like apples of all kinds And so on. Good question. There may not be a hard and fast rule other than what sounds better, and I probably wont explain this right, but types of singular is generally a label that implies a division within a general class noun, while types of plural is generally a label that implies a grouping of individual items. Types of metal, for instance, indicates that you are attempting to discern between various varieties of materials that, in general, are referred to or described as metal. These types, possibly referred to by their elemental or common names (lithium, iron, magnesium, and alloys like steel), are metals, plural. To say types of metals indicates an attempt to regroup these individual variants under headings more general than their basic names, but less generic than the overall concept metal. To illustrate: Gold is a type of metal, belonging to the transition metals. Gold is identified in the singular as a variant of the basic class of metal, then grouped with other types of metal to form a type of metals. Confused yet? Again, probably no hard and fast rule, but after some thought, this was the best I could come up with. Start asking to get answers Find the answer to your question by asking. Explore related questions See similar questions with these tags.",
+      "url": "https://english.stackexchange.com/questions/29843/types-of-followed-by-singular-or-plural",
+      "domain": "english.stackexchange.com",
+      "author": "",
+      "date_published": "2011-06-14T19:47:34+00:00",
+      "query": "What are the types of Machine learning algorithms",
+      "keywords": [
+        "types",
+        "machine",
+        "learning",
+        "algorithms"
+      ],
+      "scraped_at": "2025-10-13T18:27:34.199146",
+      "content_length": 3138,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "为什么会报错invalid operands of types int and const char 2 to",
+      "content": "为什么我的printf(ss d dn,sti0,vali);会报错显示invalid operands of types int and const char 2 to binary operator? 以下内容由AIGC及阿里嘎多学长共同生成有用望采纳 首先我们来解决你遇到的编译错误错误信息 invalid operands of types int and const char 2 to binary operator 指出在 printf 函数中存在类型不匹配的问题具体来说问题出在这行代码 这里的问题是 sti0 被错误地传递为 const char 2 类型这通常是因为数组类型在传递给 printf 时被错误地解释为字符串我们需要确保传递的是数组的第一个元素而不是整个数组 为了解决这个问题你可以将 sti0 改为 sti0 的值即 (sti  0) 或 sti0 的地址即 (sti0)这里我们选择使用地址的方式因为 sti 是一个指针数组指向 int 类型的数组 修改后的代码如下 dfs 函数用于深度优先遍历树并更新 dep深度st最近公共祖先的数组和 val边的权重数组以下是函数的简要说明 printf 函数用于输出数组 st 和 val 的值你需要确保格式字符串和参数类型匹配使用 d 格式化整数 为了更好地理解 C 中的类型转换和函数调用你可以查阅一些相关的文档和资料例如 C 的标准库文档或在线资源 以下是修正后的完整代码 这段代码应该能够正确编译并运行输出所需的结果 引自免费微信小程序皆我百晓生 在 C 中错误信息 invalid operands of types int and const char 2 to binary operator 表示你正在尝试将一个整数例如 int 类型和一个字符串例如 const char 2 类型直接用在需要二元操作符如 的上下文中这是不允许的在你的代码中这个问题出现在 printf 函数的使用上 在你的代码中你使用了 printf 函数并尝试格式化输出一个整数和一个字符串然而你没有提供适当的格式说明符你应该使用 d 来格式化输出整数并使用 s 来格式化输出字符串在你的情况下你可能想打印出整数和另一个整数而不是字符串和整数所以你应该修正 printf 的格式字符串以下是修正后的代码 在这个代码中ss d dn 是格式字符串其中的 d 是占位符用于表示要打印的整数第一个 d 将被 sti0 的值替代第二个 d 将被 vali 的值替代所以输出将会是 ss, 然后是两个整数的值最后是一个换行符这样的输出应该不会导致上述的错误信息了 该回答引用自GPT-3.5, 由博主 GISer Liu 编写 用户在编写C代码时遇到了一个编译错误错误信息为invalid operands of types int and const char 2 to binary operator具体错误出现在以下代码行 根据代码上下文sti0和vali都是整型变量因此格式化字符串中的占位符应为d 修改后的代码如下 以下是修改后的完整代码示例 通过检查和修改格式化字符串中的占位符确保其与实际变量类型匹配可以解决编译错误以上代码已经过修改可以直接粘贴使用 如果该回答解决了您的问题请采纳如果没有请私信联系或评论您的疑惑 上午好本答案参考ChatGPT-3.5 你的错误出在以下几点 以下是修改后的代码 注意在 C 中你需要使用 vector 类来存储节点路径和关系而不是像其他数据结构那样使用整数索引此外你需要在函数中删除不必要的参数 3年前 3年前 3年前 3年前 2年前 4年前 2年前 3年前 3年前 2年前 3年前 4年前 3年前 4年前 3年前 5年前 3年前 6年前 3年前 4年前",
+      "url": "https://ask.csdn.net/questions/8131052",
+      "domain": "ask.csdn.net",
+      "author": "",
+      "date_published": "2025-10-13T18:27:32.629300",
+      "query": "What are the types of Machine learning algorithms",
+      "keywords": [
+        "types",
+        "machine",
+        "learning",
+        "algorithms"
+      ],
+      "scraped_at": "2025-10-13T18:27:32.658478",
+      "content_length": 1580,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "Delphi 错误incompatible types - CSDN问答",
+      "content": "function SnapCallBack(iCamID: integer; pImageBuffer: PByte; pFrInfo: PFrameInfo): integer;stdcall; var sFrInfo: tDSFrameInfo; pIsp: PByte;begin sFrInfo : pFrInfo; pIsp : CameraISP(iCamID, pImageBuffer, pFrInfo);出错语句 CameraDisplayRGB24(iCamID, pIsp, pFrInfo); result : 0; end;补充API Function: 图像数据处理 Parameter: 1 In INT iCameraID 摄像头ID回调函数参数 2 In BYTE pbyRAW 图像数据首地址回调函数参数 3 In FrameInfo sFrInfo 图像帧数据信息参见FrameInfo定义Return: 调用成功返回RGB24图像数据首地址失败返回NULLNotification: type pFrameInfo  tDSFrameInfo; function CameraISP(iCameraID:integer;pbyRAW: PByte; sFrInfo: pFrameInfo):PByte;cdecl;",
+      "url": "https://ask.csdn.net/questions/179019",
+      "domain": "ask.csdn.net",
+      "author": "",
+      "date_published": "2025-10-13T18:27:36.523977",
+      "query": "What are the types of Machine learning algorithms",
+      "keywords": [
+        "types",
+        "machine",
+        "learning",
+        "algorithms"
+      ],
+      "scraped_at": "2025-10-13T18:27:36.539838",
+      "content_length": 578,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "如何消除-Wincompatible-pointer-types警告_编程语言-CSDN问答",
+      "content": "-Wwin-compatible-pointer-types 是 GCC 和 MinGW 编译器提供的一个平台相关警告用于检测在 Windows API 中使用不兼容的指针类型Windows 的一些回调函数如窗口过程函数接受 LPARAM 和 WPARAM 类型作为参数它们本质上是整数类型通常是 32 或 64 位但有时开发者会将指针void直接赋值给这些参数 例如在调用 SendMessage 函数时如果传入的是指针而不是整数编译器就会发出该警告 这个警告的本质是提醒我们在不同平台上指针和整数的大小可能不一致直接转换可能会导致数据截断或未定义行为 以下是一个典型的例子 在这个例子中虽然在 32 位系统下不会出问题但在 64 位系统上如果 lParam 是 32 位整数则会导致指针被截断 以下是几种消除警告的典型做法 2年前 8年前 7年前 7年前 4年前 11年前 8年前 8年前 4年前 6年前 4年前 5年前 1年前 2年前 4年前 9年前 3年前 3年前 9年前 12年前",
+      "url": "https://ask.csdn.net/questions/8467053",
+      "domain": "ask.csdn.net",
+      "author": "",
+      "date_published": "2025-10-13T18:27:35.295846",
+      "query": "What are the types of Machine learning algorithms",
+      "keywords": [
+        "types",
+        "machine",
+        "learning",
+        "algorithms"
+      ],
+      "scraped_at": "2025-10-13T18:27:35.312080",
+      "content_length": 445,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "AttributeError: module tensorflow.core.framework.types_pb2 has",
+      "content": "报错AttributeError: module tensorflow.core.framework.types_pb2 has no attribute SerializedDType 以下回复参考皆我百晓生券券喵儿等免费微信小程序作答: 这个错误提示表明你正在尝试访问 TensorFlow 模块中的一个属性但该属性并不存在具体来说你试图访问 tensorflow.core.framework.types_pb2 中的 SerializedDType但该模块中并没有这个属性这可能是由于以下几个原因造成的 为了解决这个问题你可以尝试以下几个步骤 如果你能提供更多的代码上下文或背景信息我可以更具体地帮助你解决这个问题 3年前 3年前 3年前 4年前 3年前 4年前 3年前 3年前 2年前 2年前 5年前 2年前 2年前 2年前 2年前 1年前 1年前 1年前 3年前 3年前",
+      "url": "https://ask.csdn.net/questions/8163327",
+      "domain": "ask.csdn.net",
+      "author": "",
+      "date_published": "2025-10-13T18:27:37.917827",
+      "query": "What are the types of Machine learning algorithms",
+      "keywords": [
+        "types",
+        "machine",
+        "learning",
+        "algorithms"
+      ],
+      "scraped_at": "2025-10-13T18:27:37.928518",
+      "content_length": 391,
+      "relevance_score": 0.2
+    }
+  ]
+}

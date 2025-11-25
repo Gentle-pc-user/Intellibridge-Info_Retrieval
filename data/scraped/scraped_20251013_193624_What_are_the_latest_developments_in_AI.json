@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "query": "What are the latest developments in AI?",
+    "domain": "general",
+    "scraped_at": "2025-10-13T19:36:24.581573",
+    "article_count": 5,
+    "total_content_length": 0
+  },
+  "articles": [
+    {
+      "title": "Taiwan: Latest News and Updates South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/topics/taiwan",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-13T13:30:07+00:00",
+      "query": "What are the latest developments in AI?",
+      "keywords": [
+        "AI",
+        "developments",
+        "artificial intelligence"
+      ],
+      "scraped_at": "2025-10-13T19:36:23.474736",
+      "content_length": 0,
+      "relevance_score": 0.5
+    },
+    {
+      "title": "Latest and Breaking News South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/live",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-13T14:00:07+00:00",
+      "query": "What are the latest developments in AI?",
+      "keywords": [
+        "AI",
+        "developments",
+        "artificial intelligence"
+      ],
+      "scraped_at": "2025-10-13T19:36:19.956190",
+      "content_length": 0,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "Chinas military: Latest News and Updates South China Morning",
+      "content": "",
+      "url": "https://www.scmp.com/topics/china-military",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-13T12:46:09+00:00",
+      "query": "What are the latest developments in AI?",
+      "keywords": [
+        "AI",
+        "developments",
+        "artificial intelligence"
+      ],
+      "scraped_at": "2025-10-13T19:36:22.392339",
+      "content_length": 0,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "South China Sea: Latest News and Updates South China Morning",
+      "content": "",
+      "url": "https://www.scmp.com/topics/south-china-sea",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-13T09:58:25+00:00",
+      "query": "What are the latest developments in AI?",
+      "keywords": [
+        "AI",
+        "developments",
+        "artificial intelligence"
+      ],
+      "scraped_at": "2025-10-13T19:36:23.100529",
+      "content_length": 0,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "China-EU relations: Latest News and Updates - South China",
+      "content": "",
+      "url": "https://www.scmp.com/topics/china-eu-relations",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-05T00:13:41+00:00",
+      "query": "What are the latest developments in AI?",
+      "keywords": [
+        "AI",
+        "developments",
+        "artificial intelligence"
+      ],
+      "scraped_at": "2025-10-13T19:36:24.579137",
+      "content_length": 0,
+      "relevance_score": 0.30000000000000004
+    }
+  ]
+}

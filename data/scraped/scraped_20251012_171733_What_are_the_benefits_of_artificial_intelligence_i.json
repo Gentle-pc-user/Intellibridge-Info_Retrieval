@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "query": "What are the benefits of artificial intelligence in healthcare?",
+    "domain": "general",
+    "scraped_at": "2025-10-12T17:17:33.804780",
+    "article_count": 1,
+    "total_content_length": 0
+  },
+  "articles": [
+    {
+      "title": "ArtificialAiming - Lost Password Recovery Form",
+      "content": "",
+      "url": "https://www.artificialaiming.net/forum/login.php?do=lostpw",
+      "domain": "artificialaiming.net",
+      "author": "",
+      "date_published": "2025-10-12T17:17:32.359689",
+      "query": "What are the benefits of artificial intelligence in healthcare?",
+      "keywords": [
+        "benefits",
+        "artificial",
+        "intelligence",
+        "healthcare"
+      ],
+      "scraped_at": "2025-10-12T17:17:32.365569",
+      "content_length": 0,
+      "relevance_score": 0.2
+    }
+  ]
+}

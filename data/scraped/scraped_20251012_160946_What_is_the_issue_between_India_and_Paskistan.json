@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "query": "What is the issue between India and Paskistan?",
+    "domain": "general",
+    "scraped_at": "2025-10-12T16:09:46.801774",
+    "article_count": 5,
+    "total_content_length": 3683
+  },
+  "articles": [
+    {
+      "title": "Get directions show routes in Google Maps",
+      "content": "Report wrong directions Important: To keep yourself and others safe, stay aware of your surroundings when you use directions on Google Maps. When in doubt, follow actual traffic regulations and confirm signage from the road or path that youre on. You can get directions for driving, public transit, walking, ride sharing, cycling, flight, or motorcycle on Google Maps. Tip: To choose another route in any transportation mode, select it on the map. Each route shows the estimated travel time on the map. You can get directions for different modes of transportation in Google Maps. Learn about the differences in features and availability between each mode: Driving: Transit: Walking: Ride: Cycling: Flight: Motorcycle: You can get directions to multiple destinations for all modes of transportation except public transit or flight. Tip: You can search for places along your route. Important: To get directions in Street View, click Directions . Then, enter the starting point and destination. To find the best route based on estimated traffic and transit schedules, change your travel date or time. This only works for routes with one destination. When you enter a destination in Google Maps, we show you how to get there by different travel modes, like driving, cycling, or walking. The transport options we show you are ranked based on the combination of objective factors designed to help you find relevant and useful info. These factors can include duration, distance, price, your mode preference, or the relevance of a mode to your query. Generally, the most important factors are your mode preference, trip durations, and sometimes price. Where available, we also show you other mobility services like public transport, scooter or bicycle rentals, and vehicle ride services. These mobility services are provided by third parties who have made their transport data publicly available or who have a partner agreement with us. Any partnerships or business relationships we may have with any transportation service providers do not influence the ranking of these services.",
+      "url": "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform=Desktop",
+      "domain": "support.google.com",
+      "author": "",
+      "date_published": "2025-10-12T16:09:42.326576",
+      "query": "What is the issue between India and Paskistan?",
+      "keywords": [
+        "issue",
+        "between",
+        "india",
+        "paskistan"
+      ],
+      "scraped_at": "2025-10-12T16:09:42.332468",
+      "content_length": 2073,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "Share files between Android Windows with Quick Share - Androi",
+      "content": "You can send and receive files between your Android device and Windows computer with Quick Share. You can share: In the US and most countries, Quick Share for Windows is available. Support is currently not available in: Important: ARM-based devices require Windows 11 and up. Important: To use Quick Share from Google: Tip: If you cant drag and drop the file: Important: To receive files from someone, your device must be detectable to them. You can change your devices visibility in Settings . Review the share request. Tip: If you share content between your own devices with the same Google Account, the receivers device accepts the transfer automatically. When the app is either open in the background or open but not focused, Quick Share can still receive files. When you receive content and files when the app runs in the background, you still get notifications. You can accept content from the notification. If you open the app from the background to foreground, you go back to the foreground flow. Tip: When you click on the Quick Share window when its open, its not yet fully closed. To fully close Quick Share: Try these steps if: Important: To get notifications, turn off Focus Assist or Do not disturb. If you have more questions, you can ask other users in the Android Help Community.",
+      "url": "https://support.google.com/android/answer/13801258?hl=en",
+      "domain": "support.google.com",
+      "author": "",
+      "date_published": "2025-10-12T16:09:42.287290",
+      "query": "What is the issue between India and Paskistan?",
+      "keywords": [
+        "issue",
+        "between",
+        "india",
+        "paskistan"
+      ],
+      "scraped_at": "2025-10-12T16:09:42.293185",
+      "content_length": 1296,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "Transfer files between your computer Pixel phone - Google Help",
+      "content": "You can use your Google Account or a USB cable to move photos, music, and other files between your computer and Android device. Important: Some of these steps work only on Android 9.0 and up. Learn how to check your Android version. Upload files to your Google Account to use them on both your computer and device.",
+      "url": "https://support.google.com/pixelphone/answer/2840804?hl=en",
+      "domain": "support.google.com",
+      "author": "",
+      "date_published": "2025-10-12T16:09:44.425873",
+      "query": "What is the issue between India and Paskistan?",
+      "keywords": [
+        "issue",
+        "between",
+        "india",
+        "paskistan"
+      ],
+      "scraped_at": "2025-10-12T16:09:44.429192",
+      "content_length": 314,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "How to properly blend between idle and walk animations using Animatio",
+      "content": "",
+      "url": "https://forums.unrealengine.com/t/how-to-properly-blend-between-idle-and-walk-animations-using-animation-blueprint-in-ue5/2518031",
+      "domain": "forums.unrealengine.com",
+      "author": "",
+      "date_published": "2025-05-19T13:26:52+00:00",
+      "query": "What is the issue between India and Paskistan?",
+      "keywords": [
+        "issue",
+        "between",
+        "india",
+        "paskistan"
+      ],
+      "scraped_at": "2025-10-12T16:09:41.513949",
+      "content_length": 0,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "issue - LEO: Übersetzung im Englisch Deutsch Wörterbuch",
+      "content": "",
+      "url": "https://dict.leo.org/englisch-deutsch/issue",
+      "domain": "dict.leo.org",
+      "author": "",
+      "date_published": "2025-10-12T16:09:44.154203",
+      "query": "What is the issue between India and Paskistan?",
+      "keywords": [
+        "issue",
+        "between",
+        "india",
+        "paskistan"
+      ],
+      "scraped_at": "2025-10-12T16:09:44.211621",
+      "content_length": 0,
+      "relevance_score": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "query": "What are the latest developments in artificial intelligence?",
+    "domain": "general",
+    "scraped_at": "2025-10-12T15:16:26.252612",
+    "article_count": 2,
+    "total_content_length": 0
+  },
+  "articles": [
+    {
+      "title": "News - ArtificialAiming",
+      "content": "",
+      "url": "https://www.artificialaiming.net/forum/news/",
+      "domain": "artificialaiming.net",
+      "author": "",
+      "date_published": "2025-10-12T15:16:22.143259",
+      "query": "What are the latest developments in artificial intelligence?",
+      "keywords": [
+        "artificial intelligence",
+        "latest developments",
+        "AI"
+      ],
+      "scraped_at": "2025-10-12T15:16:22.246474",
+      "content_length": 0,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "ArtificialAiming",
+      "content": "",
+      "url": "https://www.artificialaiming.net/forum/forum_index.php?s=59696e0d3219d35b9ce70ad83fe64a11",
+      "domain": "artificialaiming.net",
+      "author": "",
+      "date_published": "2025-10-12T15:16:26.221836",
+      "query": "What are the latest developments in artificial intelligence?",
+      "keywords": [
+        "artificial intelligence",
+        "latest developments",
+        "AI"
+      ],
+      "scraped_at": "2025-10-12T15:16:26.251643",
+      "content_length": 0,
+      "relevance_score": 0.2
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "query": "What are the latest developments in robotics",
+    "domain": "general",
+    "scraped_at": "2025-10-14T15:59:28.227799",
+    "article_count": 5,
+    "total_content_length": 10552
+  },
+  "articles": [
+    {
+      "title": "News Todays latest from Al Jazeera",
+      "content": "Content from aljazeera.com: Stay on top of News latest developments on the ground with Al Jazeeras fact-based news, exclusive video footage, photos and updated maps.",
+      "url": "https://www.aljazeera.com/news/",
+      "domain": "aljazeera.com",
+      "author": "",
+      "date_published": "2025-10-14T15:59:23.624177",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "latest",
+        "developments",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-14T15:59:23.634597",
+      "content_length": 165,
+      "relevance_score": 0.7999999999999999
+    },
+    {
+      "title": "Latest News Updates: Breaking News, Headlines Today",
+      "content": "Content from bloomberg.com: The most-recent news, analysis, features and opinions from Bloomberg. Get the latest news today, up-to-the-minute updates, current headlines, and breaking stories, all in one place by Bloomberg.",
+      "url": "https://www.bloomberg.com/latest",
+      "domain": "bloomberg.com",
+      "author": "",
+      "date_published": "2025-10-14T15:59:17.566017",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "latest",
+        "developments",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-14T15:59:17.574731",
+      "content_length": 222,
+      "relevance_score": 0.7
+    },
+    {
+      "title": "Humanoids on the move: How 2025 became the breakthrough year ...",
+      "content": "Home   By Humanoid robotics is crossing a long-awaited threshold. In 2025, these machines are learning, adapting, and operating alongside people as AI, sensors, and scaled manufacturing converge. Where is healthcare AI funding going? Humanoid robotics refers to robots designed to replicate human form and function, not just in shape, but in mobility, dexterity, and perception. Unlike industrial robots built for repetitive, pre programmed tasks or service robots optimized for single functions, humanoids are intended to interact within human environments, performing diverse activities that require contextual understanding and adaptable behavior. Their core differentiator is versatility, they can walk, see, manipulate, and learn, bridging artificial intelligence with physical agency. Humanoid is a cross category, orthogonal form factor rather than a single sector, so a humanoid system can show up in industrial, service, healthcare, or consumer settings depending on the use case. Humanoid robotics funding accelerates Funding for humanoid focused startups and RD programs is estimated to have exceeded 1.3B in H1 2025. Leading players, Tesla, Figure AI, Apptronik, Boston Dynamics, Agility Robotics, Sanctuary AI, and Fourier Intelligence, are racing to prove both functional dexterity and scalable production. While robotics remains diversified across healthcare, agriculture, and logistics, humanoid systems are becoming a focal point for investors seeking the next leap in embodied AI. 1. Figure A In 2025, Figure AI raised 1B in funding.Series unknown  Total funding: not disclosed Figure AI is developing a general purpose humanoid platform focused on dexterous manipulation and task learning in human environments. The company integrates vision, language, and control to enable robots to follow natural instructions and generalize from demonstrations. Early commercialization targets factory workcells and material handling, with a roadmap toward broader service and consumer use once reliability and cost curves improve. 2. Apptronik In 2025, Apptronik raised 403M in funding.Series A and extensions  Total funding: 403M Apptronik builds Apollo, a human scale humanoid designed for industrial workflows such as pick assist, pallet moves, and line support. The team emphasizes manufacturability, modular actuators, and field serviceability to speed deployment and reduce downtime. Partnerships focus on warehouse and light manufacturing pilots that can be repeated across sites with minimal customization. 3. Agility Robotics In early 2025, Agility Robotics was reported to raise roughly 400M.Series unknown  Total funding: not disclosed Agility Robotics develops Digit, a bipedal humanoid aimed at repetitive warehouse tasks like tote handling and case movement. The companys approach prioritizes reliability, uptime, and integration with existing WMS systems to deliver predictable throughput. Production scaling and multi site pilots are core to its plan to transition from showcase demos to durable, revenue generating deployments. Where funding has flowed? Brief review: This chart, from our earlier post The rise of smarter machines: Where AI in robotics is headed in 2025, shows top funding totals for AI in robotics from 2021 to 2025. Among these companies, Figure AI is the only one focused on humanoid platforms(Data for the chart were compiled as of June 2025, prior to the inclusion of Figures subsequent 1B round), while the rest span autonomous vehicles, drones, surgical systems, and software automation. That contrast reinforces why humanoids remain a cross-cutting form factor inside the broader robotics market rather than a single sector. Tesla Optimus: Redefining learning and autonomy The turning point came on October 7, 2025, when Elon Musk unveiled major progress with Teslas Optimus Gen 3 humanoid. In a live demonstration, Optimus performed complex tasks such as Kung Fu sequences, cooking, and household cleaning, all learned autonomously through observation rather than explicit coding¹²³⁵⁶⁷. This marks a shift from earlier demos that relied on human teleoperation. Optimus now learns by watching human demonstrations and online videos, pushing robotic intelligence toward self directed generalization¹²⁴. Musk announced plans to scale production to 5,000 units by the end of 2025, projecting that humanoid robotics could account for 80 of Teslas future value⁴. He added that everyone will want their Optimus buddy, maybe two, and outlined long term revenue potential measured in the tens of trillions of dollars from humanoid platforms⁴. While forecasts are bold, the demo showed smoother motion control, improved balance, and more precise object interaction, placing Tesla among the leaders in autonomous embodiment¹³⁵⁶. The global race for humanoid intelligence Teslas milestone has intensified a worldwide race. Shared ambition, humanoid robots that are trainable rather than programmed, adapting in real time to new environments and tasks. 1. Key cha...",
+      "url": "https://techequity-ai.org/2025/10/12/humanoids-on-the-move-how-2025-became-the-breakthrough-year-for-ai-driven-robotics/",
+      "domain": "techequity-ai.org",
+      "author": "",
+      "date_published": "2025-10-14T15:59:25.380440",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "latest",
+        "developments",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-14T15:59:25.394276",
+      "content_length": 5003,
+      "relevance_score": 0.5
+    },
+    {
+      "title": "What Teslas Optimus robot can do in 2025 and where it still lags",
+      "content": "Tesla is racing to build 5,000 Optimus bots by 2025, but production and supply risks loom. 19 hours ago 20 hours ago a day ago a day ago a day ago a day ago 2 days ago 2 days ago 2 days ago 2 days ago 3 minutes ago 41 minutes ago 2 hours ago 10 hours ago 10 hours ago 11 hours ago 12 hours ago 12 hours ago 12 hours ago 16 hours ago Kaif Shaikh Teslas future rides on Optimus, but is it more than a polished demo bot? Read our analysis. XTesla Optimus Musk and company now position Optimus not as a niche robot experiment but as central to Teslas future, under the banner of bringing AI into the physical world (Master Plan Part 4). In September 2025, Musk publicly asserted that 80 of Teslas future value will come from Optimus and related AI businesses. A claim that reframes the company from automaker to physical AI platform. Tesla has publicly demonstrated limited but relevant physical capabilities for Optimus. Across videos and staged demonstrations through 2024 and 2025, Optimus has been shown walking with improved gait dynamics, performing basic manipulation and household-style chores, completing simple pick-and-place operations, and interacting in staged social settings. One of the most noticeable areas of improvement is walking with a more natural heel-to-toe stride, and while that may not be monumental, most humanoid robot companies are still stuck at this stage. Though Optimus has always been marketed as an industrial robot, Tesla has been riding the trend wave. Like many other humanoid robot companies, it has shown Optimus getting a hang of household chores. While Optimus is not yet the American humanoid robot poster boy (Atlas still holds that title), it can certainly stir a pot, sweep, and vacuum. It can now open and close cabinets and curtains, tear a paper towel, take out a trash bag, and handle a Model X car component for placement on a dolly. But heres the catch. Tesla positions these demonstrations as the product of a unified control policy (a single neural network) trained with vision-based inputs, and it has emphasized a training pipeline that uses human video data to accelerate skill acquisition, which is a big deal. It is worth noting that these demonstrations indicate that Optimus currently operates reliably only in structured or lightly staged settings where objects are known, lighting is controlled, and failure modes are limited. They do not yet establish robust autonomy in unstructured homes or fully operational factory cells. At the same time, Teslas core EV business has faced headwinds in 2025, including large market-cap declines and profitability pressure that have sharpened scrutiny of whether Optimus can deliver commercial returns at scale. The clearest advances in the latest Optimus iterations are integration-level rather than singular dramatic breakthroughs. First, the robots gait and full-body coordination have become smoother than those of the earliest prototypes. Tesla frames this as progress in whole-body control rather than isolated limb scripts. Second, Teslas training approach, shifting toward vision-only imitation learning from human camera data, represents a strategic attempt to scale skill acquisition without hand-crafting controllers for each task. Third, Teslas demonstrations have stitched together locomotion, perception, and basic manipulation under a single control stack, which, if it generalizes, would reduce engineering brittleness and simplify adding new behaviors. A robot that walks without frequent falls and can reliably pick and place in moderately predictable environments is useful for repetitive and low-risk chores. Whether those capabilities can be extended and hardened for long hours and high-stakes industrial settings remains to be seen. Notable gaps remain. The demos are largely in curated environments and short runs. Continuous operation, robust error recovery, and adaptation to cluttered, dynamic human spaces have not been demonstrated publicly. Claims about heavy payloads and fine dexterity are either theoretical or shown only under constrained conditions. Earlier Tesla statements suggested high maximum lifts (150 pounds or 68 kg) under ideal conditions. At the same time, the actual working payload that Optimus is designed to carry while moving and performing autonomous tasks is much lower, generally 45 pounds (20 kg). The 2.5 (golden) iteration improved exterior design and cosmetic finish, but many observers and reviewers viewed its recent social media reveal as underwhelming in terms of function. In the unofficial demo, the humanoid responds to voice commands slowly and takes awkward pauses. The motion is tentative, and the gait looks nothing like what you would expect from a newer Optimus variantas for the 2.5, cosmetic refinement outpaced demonstrable capabilities. The robots practical limits remain the primary uncertainty until Tesla publishes operational metrics such as quick responses to human speech, cycle times for common tasks, or independent fie...",
+      "url": "https://interestingengineering.com/culture/can-optimus-make-america-win",
+      "domain": "interestingengineering.com",
+      "author": "Kaif Shaikh",
+      "date_published": "2025-10-14T15:59:28.203292",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "latest",
+        "developments",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-14T15:59:28.217122",
+      "content_length": 5003,
+      "relevance_score": 0.5
+    },
+    {
+      "title": "ABC News - Breaking News, Latest News and Videos",
+      "content": "The procedure combines a mastectomy and reconstruction. Stay informed 247 with a redesigned home feed, personalized content, and a continuous live news stream.",
+      "url": "https://abcnews.go.com/",
+      "domain": "abcnews.go.com",
+      "author": "ABC News",
+      "date_published": "2025-10-14T15:59:18.534834",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "latest",
+        "developments",
+        "robotics"
+      ],
+      "scraped_at": "2025-10-14T15:59:18.570330",
+      "content_length": 159,
+      "relevance_score": 0.5
+    }
+  ]
+}

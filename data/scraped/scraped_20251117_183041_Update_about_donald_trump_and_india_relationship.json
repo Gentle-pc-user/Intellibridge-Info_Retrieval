@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "query": "Update about donald trump and india relationship",
+    "domain": "general",
+    "scraped_at": "2025-11-17T18:30:41.904387",
+    "article_count": 5,
+    "total_content_length": 17406
+  },
+  "articles": [
+    {
+      "title": "March 2025 Update - Part Two ConsoleMAD",
+      "content": "For the second update of the month, Ive added another 74 items, including Mega Drive, PSP and Amiga games. Before I list the new additions, I wanted to mention that to help me clear a little space so that I can focus on the older formats, Wii, Wii U, PS3, Xbox 360 and Xbox One games are all buy one, get one free. Simply add two items from any of those categories to your basket and the cheaper one will be free. If you come across any technical issues with this, just let me know and Ill take a look. Here are the new additions: Akira Christmas Lemmings Dune Microprose Formula One Grand Prix Reach For The Skies Space Crusade Instruction Manual  Cruise For A Corpse Instruction Manual  Dog Fight Instruction Manual  Populous And The Promised Lands Instruction Manual  Powermonger Instruction Manual  Street Fighter II Big K Issues 1 And 2 Retro Computer Magazine Bundle ZZAP 19-Magazine Bundle Datel Pro Action Replay Official Six-Button Mega Drive Controller Black Dawn Chain Reaction Rocky III Alisia Dragoon Bio Hazard Battle Brian Lara Cricket Castle Of Illusion Starring Mickey Mouse Desert Strike Desert Strike EA Sports Double Header Ecco  The Tides Of Time FIFA Soccer 96 FIFA Soccer 96 Golden Axe II Gynoug Hellfire John Madden Football 92 Lemmings Lotus Turbo Challenge Man Overboard! Mega Games 2 Mega Games 6 Mega Games I Micro Machines Turbo Tournament 96 NHLPA Hockey 93 PGA Tour Golf II Phantasy Star II Quackshot Starring Donald Duck Road Rash II Sonic  Knuckles Sonic The Hedgehog 2 Sonic The Hedgehog 2 Super Skidmarks Super Street Fighter II Super Thunder Blade Toy Story Winter Olympics World Of Illusion Starring Mickey Mouse And Donald Duck Zero Wing Beowulf  The Game Brothers In Arms  D-Day Crash Of The Titans Def Jam  Fight For NY  The Takeover EA Sports Fight Night Round 3 Flatout  Head On God Of War  Chains Of Olympus Godfather, The Gran Turismo Harry Potter And The Goblet Of Fire Harry Potter And The Half-Blood Prince Indiana Jones And The Staff Of Kings Medal Of Honor  Heroes Prince Of Persia  Revelations Prince Of Persia  Rival Swords Sega Mega Drive Collection SOCOM U.S. Navy SEALs  Fireteam Bravo 2 Tom Clancys Splinter Cell  Essentials Worms  Open Warfare",
+      "url": "https://www.consolemad.co.uk/news/march-2025-update-part-two/",
+      "domain": "consolemad.co.uk",
+      "author": "",
+      "date_published": "2025-11-17T18:30:39.326781",
+      "query": "Update about donald trump and india relationship",
+      "keywords": [
+        "update",
+        "about",
+        "donald",
+        "trump",
+        "india",
+        "relationship"
+      ],
+      "scraped_at": "2025-11-17T18:30:39.343592",
+      "content_length": 2199,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "November 11, 2025KB5068781 (OS Builds 19044.6575 and 19045. ...",
+      "content": "Windows Secure Boot certificate expiration Important: Secure Boot certificates used by most Windows devices are set to expire starting in June 2026. This might affect the ability of certain personal and business devices to boot securely if not updated in time. To avoid disruption, we recommend reviewing the guidance and taking action to update certificates in advance. For details and preparation steps, see Windows Secure Boot certificate expiration and CA updates. Windows updates do not install Microsoft Store application updates. If you are an enterprise user, see Microsoft Store apps - Configuration Manager. If you are a consumer user, see Get updates for apps and games in Microsoft Store. This article lists the security issues and quality improvements included in this security update. Applies to: Windows 10 Enterprise LTSC 2021  Important: Use EKB KB5003791 to update to Windows 10, version 21H2 on supported editions. This security update includes fixes and quality improvements that are part of the following updates: October 14, 2025KB 5066791 (OS Builds 19044.6456 and 19045.6456) The following is a summary of the issues that this update addresses when you install this update. If there are new features, it lists them as well. The bold text within the brackets indicates the item or area of the change we are documenting. Update (known issue) Fixed: After installing the October 14, 2025 Windows update (KB5066791), the message, Your version of Windows has reached the end of support, might incorrectly display in the Windows Update Settings page. To view the page, click Start  Settings  Windows Update. If you installed earlier updates, only the new updates contained in this package will be downloaded and installed on your device. For more information about security vulnerabilities, please refer to the new Security Update Guide website and the November 2025 Security Updates. For information about Windows update terminology, see the article about the types of Windows updates and the monthly quality update types. For an overview of Windows 10, version 22H2, see its update history page. Note Follow WindowsUpdate to find out when new content is published to the Windows release health dashboard. We are currently not aware of any issues with this update. Applies to: Windows 10, version 22H2 Important: Use EKB KB5015684 to update to Windows 10, version 22H2. This security update includes fixes and quality improvements that are part of the following updates: October 14, 2025KB 5066791 (OS Builds 19044.6456 and 19045.6456) November 11, 2025KB5071959: Windows 10, version 22H2 (OS Build 19045.6466) Out-of-band The following is a summary of the issues that this update addresses when you install this update. If there are new features, it lists them as well. The bold text within the brackets indicates the item or area of the change we are documenting. Update (known issue) Fixed: After installing the October 14, 2025 Windows update (KB5066791), the message, Your version of Windows has reached the end of support, might incorrectly display in the Windows Update Settings page. To view the page, click Start  Settings  Windows Update. If you installed earlier updates, only the new updates contained in this package will be downloaded and installed on your device. For more information about security vulnerabilities, please refer to the new Security Update Guide website and the November 2025 Security Updates. For information about Windows update terminology, see the article about the types of Windows updates and the monthly quality update types. For an overview of Windows 10, version 22H2, see its update history page. Note Follow WindowsUpdate to find out when new content is published to the Windows release health dashboard. Symptoms This update might fail to install on some Windows 10 devices enrolled in Extended Security Updates (ESU) for commercial customers with error 0x800f0922 (CBS_E_INSTALLERS_FAILED). This issue is isolated to devices activated via Windows subscription activation through the Microsoft 365 admin center. Workaround The issue is under investigation, and additional information will be shared as soon as it becomes available. Microsoft now combines the latest servicing stack update (SSU) for your operating system with the latest cumulative update (LCU). SSUs improve the reliability of the update process to mitigate potential issues while installing updates. This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. To learn more about SSUs, see Servicing stack updates and Servicing Stack Updates (SSU): Frequently Asked Questions. This servicing stack update (SSU) includes enhanced logic to verify whether a device is hosted on Azure, leveraging an updated certificate chain for validation. To ensure seamless installation of future updates on Azure-hosted devices, it is strongly recommended to install this latest SSU prior to applying any additional updates. Add...",
+      "url": "https://support.microsoft.com/en-us/topic/november-11-2025-kb5068781-os-builds-19044-6575-and-19045-6575-7fe13257-9079-49af-9369-e0e6242701dd",
+      "domain": "support.microsoft.com",
+      "author": "",
+      "date_published": "2025-11-17T18:30:40.709447",
+      "query": "Update about donald trump and india relationship",
+      "keywords": [
+        "update",
+        "about",
+        "donald",
+        "trump",
+        "india",
+        "relationship"
+      ],
+      "scraped_at": "2025-11-17T18:30:40.880589",
+      "content_length": 5003,
+      "relevance_score": 0.7999999999999999
+    },
+    {
+      "title": "Digital Marketing Updates May 2025",
+      "content": "Jun 3, 2025  New Things in Digital Founder of echoVME Digital  Digital Scholar June 2025 marks an exhilarating time for digital marketing! WhatsApp has officially launched a dedicated iPad app, enhancing user convenience and integration across devices. Meanwhile, Google is testing innovative features, such as sitelink carousels with images and a Read Reviews button, for local listings. Additionally, Meta is adding more creative options to its Edits app, while YouTube expands its voice replies and introduces a Shorts quiz sticker. Stay tuned as we explore these trends and more! Table of Contents Reddit has enhanced its Pro tools by introducing a simplified business profile creation process. Businesses can now easily generate auto-suggested bios based on their website, allowing for a quick and efficient setup. Additionally, brands can showcase community posts, enhancing engagement and credibility within Reddits vast user base, making it easier to connect with audiences. Reddit is implementing new verification measures to ensure users are human and combat AI-generated profiles. CEO Steve Huffman stated that these changes aim to protect the platforms authenticity while maintaining user anonymity. By collaborating with third-party services, Reddit will verify humanity without collecting personal information, addressing growing concerns about AIs impact on online interactions and trust in community discussions. Google is testing a new label in its shopping ads to highlight low prices, displaying Lowest in 30 days when an items price is the lowest it has been in the past month. This feature aims to make price drops more visible to consumers. Google is testing image carousels within the sitelinks of Google Ads. Spotted recently, its not entirely clear if this is a brand new feature or a variation of something tested in the past. These visual sitelinks appear in sponsored search results. If this test rolls out widely, it could significantly impact how advertisers design their sitelinks. It would also add a new dimension to AB testing ad creatives, potentially improving click-through rates and overall campaign performance. Bing is experimenting with a new pagination design in its search results. Instead of the traditional leftright arrows and page numbers, Bing is testing Next and Prev buttons to navigate through search result pages. This aims to provide a cleaner and more intuitive user experience. Google is experimenting with new features to enhance local listings and ads. They are testing a read reviews button in local sponsored ads, making it easier for users to access reviews. Additionally, appointment tags like Appointment Suggested and Appointment Required are being tested in local listings. Descriptive tags, such as reservation possible, for children, takeout, and catering, are also being added to local listings in some regions like Japan. At BrandCast 2025, YouTube revealed innovative ad options and key usage statistics that underscore its influence in digital marketing. Highlighting new features like Peak Points for optimal ad placement and enhanced connectivity through Connected TV, the platform continues to reshape advertising dynamics. These updates promise increased engagement and opportunities for brands, paving the way for more effective campaigns. Threads has launched a significant update allowing users to add up to five links to their profiles, enhancing opportunities for creators and businesses to direct traffic efficiently. This feature, aimed at boosting engagement, is complemented by analytics tools that track link performance and insights, empowering users to optimise their digital presence and connect with their audience more effectively. Meta has recently enhanced its Edits app with exciting new features, including beat markers to align video clips with music and 50 dynamic text animations for engaging visuals. These updates, aimed at content creators, simplify the editing process and drive engagement by ensuring videos are professional and captivating. Edits continues to evolve as a powerful tool for digital marketing professionals. TikTok has introduced a game-changing feature that allows creators to activate customer direct messages (DMs) during livestreams. This enhancement promotes real-time engagement, enabling viewers to ask questions and request information directly while watching. With this update, brands can capture leads more effectively, boosting overall interaction and paving the way for improved conversion rates during live sessions. Google is testing a new recipe search feature powered by AI Overviews, potentially as a Search Labs feature. This allows users to see recipe ideas and filter them by replacements and ingredients in a carousel format. This innovative approach enhances the user experience by providing more interactive and personalised recipe search results. Google is testing a new AI Mode button directly on the Google Search box. This suggests a deeper integration of ...",
+      "url": "https://soravjain.com/latest-digital-marketing-updates-may-2025/",
+      "domain": "soravjain.com",
+      "author": "",
+      "date_published": "2025-11-17T18:30:37.918314",
+      "query": "Update about donald trump and india relationship",
+      "keywords": [
+        "update",
+        "about",
+        "donald",
+        "trump",
+        "india",
+        "relationship"
+      ],
+      "scraped_at": "2025-11-17T18:30:37.934099",
+      "content_length": 5003,
+      "relevance_score": 0.7
+    },
+    {
+      "title": "Breaking News, Latest News and Videos CNN",
+      "content": "Content from cnn.com: US and Venezuela. President Donald Trump speaks to reporters before boarding Air Force One on November 16, 2025 at Palm Beach International Airport in West Palm Beach, Florida.",
+      "url": "https://www.cnn.com/",
+      "domain": "cnn.com",
+      "author": "Monica Sarkar",
+      "date_published": "2025-11-17T18:30:30.383975",
+      "query": "Update about donald trump and india relationship",
+      "keywords": [
+        "update",
+        "about",
+        "donald",
+        "trump",
+        "india",
+        "relationship"
+      ],
+      "scraped_at": "2025-11-17T18:30:30.407032",
+      "content_length": 198,
+      "relevance_score": 0.7
+    },
+    {
+      "title": "Mirasvit Latest Updates October 2025",
+      "content": "We continue improving our products to make your work with them even more comfortable and productive. This month, updates focus on data quality, simplifying everyday operations in the admin, optimizing markup and headings for search, as well as cleaner email communications and easier catalog navigation. In the Order Management module, new Tag Group conditions are now available: Total Due and Payment Additional Information. You can flag orders with an outstanding balance faster and group them more precisely by payment attributes, which helps you handle risky cases on time. In Advanced Product Feeds, feed creation is streamlined: you can start from scratch instead of having to pick a preset, clone existing setups, and store a logo, guide link, and short description for clearer organization. The updated builder adds a marketplaces list, an alphabetical index, and preset search, so setup is easier to navigate and takes less time. In Follow Up Email, messages are no longer sent to inactive customers. You dont waste your sending limits, and you get more accurate statistics. Below, well look at these and other changes in more detail and show you how to apply them. Table of Contents Our specialists took a comprehensive approach to improving the Advanced Product Feeds module. First, the feed creation interface is more intuitive: the start screen provides a list of popular marketplaces, an alphabetical index works as a quick filter, and there is also a search across templates. As a result, you find the right preset or starting point faster. Second, it is now possible to create a fully custom feed from scratch, which is convenient for niche channels or nonstandard integrations when you need full control over the structure from the first step. Third, templates and feeds can now store additional attributes: a platform logo, a link to a guide (for example, Merchant Center rules), and a short description. As a result, each feed has clear identification and usage context. Additional improvements: The ability to display a page title h1 on the All Brands page became available in the Magento 2 Layered Navigation Extension. Previously, it was hidden; a custom title can be set and its display enabled, which benefits SEO. To set the page title, go to Stores  Configuration  Mirasvit Extensions  Brand Pages  All Brands Page Settings  Page Title. To enable display: Stores  Configuration  Mirasvit Extensions  Brand Pages  All Brands Page Settings  Display Page Title. If no title is provided, the default value All Brands is used. In the Magento 2 Affiliate Extension, our developers added an Export CSV button to the dashboard. Previously, the dashboard only displayed statistics with no export option. In the new version, data can be saved with a single click to a CSV file for further processing and reporting. This removes manual copying and speeds up sharing results with colleagues or partners. The feature is available immediately after updating the module; no specific conditions apply. In previous versions of the Follow Up Email module, there was no restriction on email delivery to inactive customers. After the update, those recipients are automatically suppressed from sends. As a result, you dont waste sending limits, and statistics are more accurate because emails arent sent unnecessarily. There are no frontend or backend changes, and no additional configuration is required. Note that the feature works only in Adobe Commerce B2B. Our users ran into the following situation: Elasticsearch and OpenSearch impose a 32 KB field length limit. To prevent indexing errors, fields exceeding this size were automatically truncated. This constrained some Search Ultimate functions. For example, when search relies on many product attributes or when products have hundreds of child items or options, the _misc field, which stores option data, child product data, and long-tail variations, was truncated. Our specialists addressed this by changing how the _misc field is processed. All data in it is indexed and available for search. No additional configuration is required. When the Google Page Speed Optimizer module was enabled, image optimization always ran automatically. If it needed to be turned off temporarily (for example, for testing), this had to be done via the command line, which was inconvenient. In the new version, a toggle for EnableDisable Image Optimization became available in the admin. As a result, you can disable and re-enable image optimization at any time with a single click. To use this feature, go to Stores  Configuration  Mirasvit Extensions  Google Page Speed Optimizer  Image Optimization. In the Enable Image Optimization field, select Yes to enable or No to disable. Then save the changes and clear the cache. In the Mass Product Actions module, the ability to remove product image files from the file system became available. Previously, deletions affected database records only. This frees up server space and removes unnecessary files ...",
+      "url": "https://mirasvit.com/blog/mirasvit-latest-updates-october-2025.html",
+      "domain": "mirasvit.com",
+      "author": "",
+      "date_published": "2025-11-17T18:30:36.067047",
+      "query": "Update about donald trump and india relationship",
+      "keywords": [
+        "update",
+        "about",
+        "donald",
+        "trump",
+        "india",
+        "relationship"
+      ],
+      "scraped_at": "2025-11-17T18:30:36.085627",
+      "content_length": 5003,
+      "relevance_score": 0.6
+    }
+  ]
+}

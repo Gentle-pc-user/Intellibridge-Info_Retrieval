@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "query": "tell me latest news in python development",
+    "domain": "general",
+    "scraped_at": "2025-10-12T17:28:28.065699",
+    "article_count": 5,
+    "total_content_length": 15292
+  },
+  "articles": [
+    {
+      "title": "Unlock the Power of Python: Essential Beginner Projects",
+      "content": "Python is a high-level, interpreted programming language that is widely used in various fields such as web development, data analysis, artificial intelligence, and more. Whether you are a beginner or an experienced developer, Python is an excellent choice for projects that require speed, simplicity, and ease of use. Table of Contents Building a simple calculator is an excellent way to start your Python journey. With Python, you can create a calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. This project helps you understand the basics of Python syntax, variables, and control structures. To create a calculator in Python, you will need to define functions for each operation and use a simple GUI framework like Tkinter to create a user-friendly interface. You can also use a library like eval() to evaluate mathematical expressions. Before you start building a calculator, make sure you have Python installed on your system. You can download the latest version of Python from the official Python website. Once installed, you can use a text editor or an IDE like PyCharm to write and run your code. Heres a simple calculator example in Python: python  Simple Calculator in Python num1  float(input(Enter the first number: )) operator  input(Enter operator (, -, , ): ) num2  float(input(Enter the second number: )) if operator  : print(num1  num2) elif operator  -: print(num1  num2) elif operator  : print(num1  num2) elif operator  : if num2 ! 0: print(num1  num2) else: print(Error! Division by zero is not allowed.)  Web scraping is the process of extracting data from websites using automated tools. Python has several libraries such as Beautiful Soup and Scrapy that make web scraping easier. You can use Python for web scraping to extract data from websites, parse HTML documents, and store the data in a structured format like CSV or JSON. In this project, you will learn how to use Python libraries to extract data from websites, handle HTML elements, and store the data in a file or a database. Before you start web scraping, you need to create a Python environment and install the necessary libraries. You can use pip to install Beautiful Soup and Scrapy using the following commands: pip install beautifulsoup4 pip install scrapy Heres a simple web scraping example using Beautiful Soup: python  Web Scraping with Beautiful Soup import requests from bs4 import BeautifulSoup url  http:example.com response  requests.get(url) soup  BeautifulSoup(response.text, html.parser) print(soup.prettify())  Building a chatbot is an exciting project that requires natural language processing (NLP) and machine learning skills. You can use Python libraries like NLTK and ChatterBot to build a simple chatbot that responds to user queries. This project helps you learn about NLP, machine learning, and text processing techniques. In this project, you will learn how to use Python to create a chatbot that can understand user inputs, respond to queries, and learn from user feedback. Before you start building a chatbot, you need to install the necessary libraries such as NLTK and ChatterBot. You can use pip to install these libraries using the following commands: pip install nltk pip install chatterbot Heres a simple chatbot example using NLTK: python  Simple Chatbot using NLTK import nltk from nltk.tokenize import word_tokenize from nltk.corpus import stopwords nltk.download(punkt) nltk.download(stopwords) text  Hello, how are you? tokens  word_tokenize(text) stop_words  set(stopwords.words(english)) filtered_tokens  word for word in tokens if word not in stop_words print(filtered_tokens)  Python is a versatile programming language that can be used for various projects, including simple calculator, web scraping, and chatbots. This blog post has covered the basics of Python and provided examples of three essential beginner projects that you can start with. Whether you are a beginner or an experienced developer, Python is an excellent choice for projects that require speed, simplicity, and ease of use. With practice and dedication, you can unlock the power of Python and create innovative projects that make a real impact. External resources:  Python Official Website: https:www.python.org(https:www.python.org)  Beautiful Soup Documentation: https:www.crummy.comsoftwareBeautifulSoupbs4doc(https:www.crummy.comsoftwareBeautifulSoupbs4doc)  ChatterBot Documentation: https:chatterbot.readthedocs.ioenstable(https:chatterbot.readthedocs.ioenstable)",
+      "url": "https://thetechgenie.in/unlock-the-power-of-python-essential-beginner-projects/",
+      "domain": "thetechgenie.in",
+      "author": "thetechgenie.in",
+      "date_published": "2025-10-12T03:12:44+01:00",
+      "query": "tell me latest news in python development",
+      "keywords": [
+        "python",
+        "development",
+        "news"
+      ],
+      "scraped_at": "2025-10-12T17:28:26.604038",
+      "content_length": 4533,
+      "relevance_score": 0.5
+    },
+    {
+      "title": "Master Categorical Data Analysis with Python",
+      "content": "Data analysis is an essential tool for making informed decisions in todays data-driven world. Python has emerged as a leading language in the field of data analysis, and its popularity is growing exponentially. But, what about categorical data? How do we efficiently handle, identify patterns, and make data-driven decisions when working with categorical data? In this post, well uncover the secrets of master categorical data analysis with Python. Table of Contents Categorical data is a type of data that is characterized by categorical values, such as a category, a group, or a class. This type of data is widely used in various fields, including social sciences, marketing, and finance. It is essential to master categorical data analysis to make informed decisions, identify patterns, and draw insights from the data. In this post, well explore the techniques and tools you need to master categorical data analysis with Python. Categorical data analysis is essential for making accurate predictions, identifying trends, and making data-driven decisions. It helps you to understand behavior, trends, and correlations in your data and uncover hidden patterns. Mastering categorical data analysis will enable you to gain insights into your data, identify opportunities, and make informed decisions. Python is an ideal language for mastering categorical data analysis due to its vast array of libraries and tools. Pandas, one of the most popular libraries for data manipulation and analysis, offers a range of functions and features for handling categorical data. Well explore some of the key tools and techniques you can use to master categorical data analysis with Python, including: Mastery of categorical data analysis with Python requires a deep understanding of the tools, techniques, and best practices. Here are some best practices to keep in mind: In conclusion, categorical data analysis is a critical tool for making informed decisions in the data-driven world. Python, with its vast array of libraries and tools, is an ideal language for mastering categorical data analysis. By exploring the techniques and tools outlined in this post, youll be well on your way to mastering categorical data analysis with Python. If youre interested in learning more about categorical data analysis with Python, I encourage you to explore further. There are many resources available, including online courses, tutorials, and books. With dedication and perseverance, you can become a master of categorical data analysis with Python and unlock the full potential of your data.",
+      "url": "https://thetechgenie.in/master-categorical-data-analysis-with-python/",
+      "domain": "thetechgenie.in",
+      "author": "thetechgenie.in",
+      "date_published": "2025-10-12T00:48:46+01:00",
+      "query": "tell me latest news in python development",
+      "keywords": [
+        "python",
+        "development",
+        "news"
+      ],
+      "scraped_at": "2025-10-12T17:28:28.063758",
+      "content_length": 2571,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "Video: ऑट क अदर छपकर बठ थ दरद, 7 फट लब",
+      "content": "UP News: उततर परदश क हपड स एक चकन वल घटन समन आई ह. यह एक ऑट रकश क अदर अचनक एक अजगर नकल आय, जस दखकर लग म हडकप मच गय. यह अजब-गरब घटन हपड शहर क पलखव कषतर क बतई ज रह ह. जनकर क मतबक, ऑट चलक जब सबह अपन रकश चल करन गय त उसन अदर कछ हलचल महसस क. पहल त उसन सच क कई जनवर घस गय हग, लकन जस ह उसन सट उठई त वह एक बड अजगर लपट हआ दखई दय. वन वभग क टम न शर कय रसकय ऑपरशन अजगर क दखत ह ऑट चलक घबर गय और तरत ऑट स कदकर बहर भग. उसन शर मचय त आसपस क लग इकटठ ह गए. लग न खद स अजगर क नकलन क कशश नह क बलक वन वभग क सचन द. कछ ह दर म वन वभग क टम मक पर पहच और सवधनपरवक अजगर क रसकय ऑपरशन शर कय. करब आध घट क मशककत क बद टम न अजगर क सरकषत तरक स पकड लय. A post shared by ABP News (abpnewstv) सशल मडय पर वडय हआ वयरल वन वभग क अधकरय न बतय क यह अजगर लगभग 6 स 7 फट लब थ और रत क समय कस खत य झड स नकलकर ऑट क अदर घस गय थ. रसकय क बद अजगर क जगल क सरकषत इलक म छड दय गय. इस घटन क वडय भ सशल मडय पर तज स वयरल ह गय. वडय म दख ज सकत ह क कस तरह अजगर धर-धर ऑट क सट क नच स बहर नकल रह ह और वन वभग क टम बड सवधन स उस पकड रह ह. सथनय लग न कह क पहल कभ इलक म ऐस दशय नह दख गय थ. लग न वन वभग क टम क तरफ क, जनहन बन कस नकसन क अजगर क सरकषत रसकय कय. We use cookies to improve your experience, analyze traffic, and personalize content. By clicking Allow, you agree to our use of cookies.",
+      "url": "https://www.abplive.com/states/up-uk/watch-7-foot-long-python-emerged-from-auto-rickshaw-in-hapur-uttar-pradesh-causing-a-stir-viral-video-3027255",
+      "domain": "abplive.com",
+      "author": "By : एबीपी यूपी डेस्क",
+      "date_published": "2025-10-12T11:12:36+05:30",
+      "query": "tell me latest news in python development",
+      "keywords": [
+        "python",
+        "development",
+        "news"
+      ],
+      "scraped_at": "2025-10-12T17:28:11.525796",
+      "content_length": 1213,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "PyTorch कय ह? AI और ML म इसक उपयग - Hindi Study Hub",
+      "content": "PyTorch एक शकतशल और ओपन-सरस Python लइबरर ह, ज AI (Artificial Intelligence) और ML (Machine Learning) म Deep Learning मडलस क बनन और परशकषत करन क लए वशव सतर पर उपयग क जत ह Facebook (Meta AI) दवर वकसत, यह लइबरर अपन गतशल कमपयटशनल गरफ और उपयगकरत-अनकल इटरफस क लए जन जत ह, ज डप लरनग रसरच और डवलपमट क सरल बनत ह इस बलग म, हम AI और ML क लए PyTorch क बनयद और मधयवरत कनसपटस जस टसर (Tensors), नयरल नटवरकस (Neural Networks), मडल परशकषण (Model Training), और ऑटमटक गरडएट (Automatic Differentiation) क शदध हद म समझएग यह बलग बगनरस और मधयवरत शकषरथय क लए बनय गय ह, ज AI और ML क लए PyTorch सखन चहत ह परतयक कनसपट क कड Example, AIML म उपयग, और परकटकल सझव क सथ कवर कय गय ह, ज इस PyTorch tutorial क रप म भ उपयग बनत ह यह लइबरर एक ओपन-सरस Deep Learning फरमवरक ह, जस 2016 म Facebook क AI रसरच लब न रलज कय थ यह गतशल कमपयटशनल गरफ (eager execution) क सपरट करत ह, ज डवलपरस क कड डबग करन और मडलस क इटरकटव रप स टसट करन क सवध दत ह PyTorch, TensorFlow क एक मजबत वकलप ह और वशष रप स रसरच कमयनट म लकपरय ह Key Features PyTorch: गतशल गरफ (Dynamic Graph): रनटइम पर मडलस क सशधत करन क सवध टसर ऑपरशनस (Tensor Operations): उचच परदरशन वल गणतय ऑपरशनस ऑटमटक गरडएट (Automatic Gradient): गरडएटस क सवचलत रप स गणन करन GPU सपरट (GPU Support): तज परशकषण क लए CUDA सपरट AIML म उपयग (Use in AIML): इसक उपयग छव वरगकरण, नचरल लगवज परससग (NLP), और जनरटव मडलस (जस GANs) म हत ह यह AI और ML क लए PyTorch क एक आदरश टल बनत ह AI और ML क लए PyTorch शर करन क लए सबस पहल इस सथपत करन आवशयक ह कमड (Command): टरमनल म नमनलखत कमड चलए (CPU ससकरण क लए): GPU सपरट क लए (For GPU Support): CUDA-enabled PyTorch सथपत करन क लए pytorch.org स सह कमड चन वरफकशन (Verification): Python म PyTorch इपरट करक चक कर: Output: Jupyter Notebook: मडल परशकषण और वजअलइजशन क लए उपयकत Anaconda: PyTorch क अलग स सथपत करन पड सकत ह VS Code: PyTorch कड लखन और टसट करन क लए बसट AIML म उपयग (Use in AIML): PyTorch क उपयग नयरल नटवरकस क डजइन, परशकषत, और रसरच परजकटस म टसट करन क लए हत ह यह Deep Learning with PyTorch क लए एक शकतशल टल ह टसर PyTorch क मल डट सटरकचर ह, ज मलट-डयमशनल arrays क तरह कम करत ह यह NumPy arrays क समन ह लकन GPU सपरट क सथ Code Example: टसर बनन क Example Output: AIML म उपयग (Use in AIML): टसर क उपयग डट (जस छव पकसलस) और मडल परमटरस (जस वटस और बयसस) क सटर करन क लए हत ह यह AI और ML क लए PyTorch क आधर ह PyTorch म नयरल नटवरकस क torch.nn मडयल क जरए बनय जत ह, ज Deep Learning मडलस क डजइन करन म आसन परदन करत ह Code Example: एक सधरण नयरल नटवरक बनन क Example Output: AIML म उपयग (Use in AIML): नयरल नटवरकस क उपयग छव पहचन, NLP, और सफरश परणलय म हत ह यह PyTorch for Neural Networks क एक परमख हसस ह PyTorch म मडल क डट पर परशकषत करन क लए लस फकशनस और ऑपटमइजरस क उपयग हत ह गतशल गरफ इस इटरकटव बनत ह Code Example: नयरल नटवरक क परशकषत करन क Example Output: AIML म उपयग (Use in AIML): मडल परशकषण क उपयग डप लरनग मडलस क डट पर अनकलत करन क लए हत ह यह Deep Learning with PyTorch क मल हसस ह PyTorch क autograd ससटम गरडएटस क सवचलत रप स गणन करत ह, ज Deep Learning म ऑपटमइजशन क लए आवशयक ह Code Example: ऑटमटक गरडएट क Example Output: AIML म उपयग (Use in AIML): ऑटमटक गरडएट क उपयग नयरल नटवरकस म वटस क अपडट करन क लए हत ह गतशल गरफ (Dynamic Graph): रनटइम पर मडलस क सशधत और डबग करन आसन उपयगकरत-अनकल (User-Friendly): Pythonic और इटरकटव इटरफस रसरच-अनकल (Research-Friendly): डप लरनग रसरच क लए आदरश GPU सपरट (GPU Support): तज परशकषण क लए CUDA सपरट छव परससग (Image Processing): CNNs क सथ छव वरगकरण और ऑबजकट डटकशन NLP: टरसफरमर मडलस क सथ टकसट परससग जनरटव मडलस (Generative Models): GANs और VAEs क सथ छव नरमण रइनफरसमट लरनग (Reinforcement Learning): RL एलगरदमस क लए Mini Project Idea: एक सधरण नयरल नटवरक बनए ज रखक डट क फट कर Output: डट परपरससग (Data Preprocessing): डट क समनयकत और सफ कर छट मडलस (Small Models): जटल मडलस स पहल सधरण मडलस टसट कर डकयमटशन (Documentation): कड म English comments और वरणनतमक नम जड अभयस (Practice): Kaggle य PyTorch टयटरयलस पर डप लरनग परजकटस कर PyTorch एक शकतशल और लचल लइबरर ह ज AI aur ML म Deep Learning मडलस क बनन और परशकषत करन क आसन बनत ह इस बलग म हमन AI और ML क लए PyTorch क बनयद कनसपटस जस टसर (Tensors), नयरल नटवरकस (Neural Networks), मडल परशकषण (Model Training), और ऑटमटक गरडएट (Automatic Differentiation) क शदध हद म समझय, और AIML क उपयग क ममल क सथ कड Example परदन कए अगल बलग Advanced Deep Learning Techniques य Reinforcement Learning पर कदरत ह सकत ह अभयस शर कर और अपन AI aur ML परजकटस क अगल सतर पर ल जए! Read More: TensorFlow Explained in Hindi Matplotlib Explained in Hindi: AI और ML क लए Visualizations कस बनए Pandas कय ह? AI और Machine Learning Beginners क लए Easy Guide",
+      "url": "https://hindistudyhub.com/pytorch-in-ai-and-ml-in-hindi/",
+      "domain": "hindistudyhub.com",
+      "author": "Harshit Dulawat",
+      "date_published": "2025-10-12T01:01:11+05:30",
+      "query": "tell me latest news in python development",
+      "keywords": [
+        "python",
+        "development",
+        "news"
+      ],
+      "scraped_at": "2025-10-12T17:28:11.970471",
+      "content_length": 4371,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "Improving Categorical Data Analysis with Python",
+      "content": "Improving Categorical Data Analysis with Python When it comes to data analysis, categorical data is often overlooked. However, it is an essential part of any dataset and can provide valuable insights if handled properly. In this article, we will explore ways to improve categorical data analysis with Python, a powerful programming language. Table of Contents Categorical data is a type of data that is not numerical and can be divided into categories or groups. Examples of categorical data include gender, occupation, and marital status. Unlike numerical data, categorical data cannot be added or subtracted, and its analysis requires different approaches. In order to analyze categorical data, it is necessary to understand the different types of categorical variables and how they are handled in Python. Some common types of categorical variables include: In this article, we will focus on qualititative variables and explore ways to improve categorical data analysis with Python. In Python, we can handle categorical data using the pandas library. Pandas is a powerful data analysis library that provides a wide range of features for data manipulation and analysis. When working with categorical data in pandas, we need to be aware of the different data types that are available. These include: In order to improve categorical data analysis with Python, we need to ensure that our categorical variables are correctly handled. This can be done by: Exploratory data analysis is the process of exploring a dataset to identify patterns, trends, and relationships. When working with categorical data, exploratory data analysis is crucial because it helps us to understand the distribution of categorical variables and identify potential issues. In Python, we can perform exploratory data analysis using a range of libraries, including pandas and matplotlib. Some common techniques include: Pivoting and melting data are essential techniques for working with categorical data. Pivoting involves transforming a dataset from a long format to a wide format, while melting involves transforming a dataset from a wide format to a long format. In Python, we can pivot and melt data using the pandas library. Some common functions include: Improving categorical data analysis with Python requires a range of techniques, including handling categorical data, performing exploratory data analysis, and pivoting and melting data. By following the techniques outlined in this article, data analysts and scientists can improve their ability to work with categorical data and gain valuable insights from their datasets.",
+      "url": "https://thetechgenie.in/improving-categorical-data-analysis-with-python/",
+      "domain": "thetechgenie.in",
+      "author": "thetechgenie.in",
+      "date_published": "2025-10-12T11:13:14+01:00",
+      "query": "tell me latest news in python development",
+      "keywords": [
+        "python",
+        "development",
+        "news"
+      ],
+      "scraped_at": "2025-10-12T17:28:13.710484",
+      "content_length": 2604,
+      "relevance_score": 0.2
+    }
+  ]
+}

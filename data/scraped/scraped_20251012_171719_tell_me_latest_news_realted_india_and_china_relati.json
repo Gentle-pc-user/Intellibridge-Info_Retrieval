@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "query": "tell me latest news realted india and china relations",
+    "domain": "general",
+    "scraped_at": "2025-10-12T17:17:19.603750",
+    "article_count": 5,
+    "total_content_length": 0
+  },
+  "articles": [
+    {
+      "title": "Latest and Breaking News South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/live",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:29:31+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:14.892768",
+      "content_length": 0,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "Singapore: Latest News and Updates South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/topics/singapore",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T09:00:08+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:15.521460",
+      "content_length": 0,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "Military: Latest News and Updates South China Morning Post",
+      "content": "",
+      "url": "https://www.scmp.com/news/china/military",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-11T12:00:09+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:17.690435",
+      "content_length": 0,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "Chinas military: Latest News and Updates South China Morning",
+      "content": "",
+      "url": "https://www.scmp.com/topics/china-military",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-04T14:00:08+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:18.265815",
+      "content_length": 0,
+      "relevance_score": 0.9
+    },
+    {
+      "title": "Latest news on Hong Kong, China, Asia and the world South China ...",
+      "content": "",
+      "url": "https://www.scmp.com/news",
+      "domain": "scmp.com",
+      "author": "",
+      "date_published": "2025-10-12T11:15:27+00:00",
+      "query": "tell me latest news realted india and china relations",
+      "keywords": [
+        "tell",
+        "latest",
+        "news",
+        "realted",
+        "india",
+        "china",
+        "relations"
+      ],
+      "scraped_at": "2025-10-12T17:17:18.542170",
+      "content_length": 0,
+      "relevance_score": 0.8
+    }
+  ]
+}

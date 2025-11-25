@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "query": "Updates about india and japan relations",
+    "domain": "general",
+    "scraped_at": "2025-11-17T17:29:24.611338",
+    "article_count": 5,
+    "total_content_length": 17702
+  },
+  "articles": [
+    {
+      "title": "2024 25 NFL playoffs - Wikipedia",
+      "content": "The NFL playoffs for the 2024 season began on January 11, 2025, and concluded with Super Bowl LIX on February 9 at Caesars Superdome in New Orleans, Louisiana, when the Philadelphia Eagles defeated the defending champion Kansas City Chiefs 4022 to win their second Super Bowl in franchise history. All playoff teams in both conferences won at least 10 games, the first time since 2012 and the first time since the NFL playoffs expanded to a 14-team format in 2020. This was the second time since their respective moves to Los Angeles where the Rams and Chargers both qualified for the playoffs, after 2018. Within each conference, the four division winners and the top three non-division winners with the best overall regular season records qualified for the playoffs. The four division winners are seeded 14 based on their overall won-lost-tied record, and the wild card teams are seeded 57. The NFL does not use a fixed bracket playoff system, and there are no restrictions regarding teams from the same division matching up in any round. In the first round, dubbed the Wild Card playoffs, the second-seeded division winner hosts the seventh seed wild card, the third seed hosts the sixth seed, and the fourth seed hosts the fifth seed. The 1 seed from each conference receives a first-round bye. In the second round, the Divisional playoffs, the number 1 seed hosts the lowest-seeded surviving team from the first round (seed 4, 5, 6, or 7), while the other two surviving teams play each other, with the higher-seeded team hosting. The two surviving teams from each conferences divisional playoff games then meet in the respective AFC and NFC Conference Championships, hosted by the higher seed. Although the Super Bowl, the championship round of the playoffs, is played at a neutral site, the designated home team is based on an annual rotation by conference.1 The playoffs began with Wild Card Weekend on January 1113, 2025. The Divisional round was played on January 1819, with the winners of those games advancing to the Conference Championship games, which were played on January 26. Super Bowl LIX took place on February 9 at the Caesars Superdome in New Orleans, Louisiana. at NRG Stadium, Houston, Texas First quarter Second quarter Third quarter Fourth quarter Top passers Top rushers Top receivers This was the first playoff meeting between the Chargers and the Texans. Houston and Los Angeles did not meet in the regular season. The Texans have made eight appearances in the wild card round in their 23-year history, and they have been played at home in the Saturday, 4:30 p.m. slot each time.13 The first half was a low-scoring affair, ending 106 to the Texans and highlighted by the two teams quarterbacksC. J. Stroud and Justin Herbertthrowing interceptions on back-to-back plays. The second half produced more points, as Herbert threw three more interceptions. In the fourth quarter, Texans cornerback DAngelo Ross blocked an extra point attempt and returned it for a defensive two-point conversion, the first such score to occur in a postseason game since the play was added in 2015.14 This was the first NFL game to end with a 3212 final score, known as a scorigami.15 Ladd McConkey finished the game with 9 catches for 192 receiving yards, breaking the playoff record for receiving yards by a rookie.16 This game received significant online coverage as, during the Nickelodeon broadcast, Chargers head coach Jim Harbaugh was swallowed by the SpongeBob SquarePants character Dirty Bubble.17 After this scene, the Chargers were outscored 326, leading to some fans seeing it as an omen.17 at MT Bank Stadium, Baltimore, Maryland First quarter Second quarter Third quarter Fourth quarter Top passers Top rushers Top receivers This was the fifth playoff meeting between the Steelers and the Ravens; the Steelers led 31 in previous postseason meetings between the two, all of which were previously played in Pittsburgh. Their most recent playoff meeting came in the 2014 AFC Wild Card round, when the Ravens beat the Steelers 3017. The two teams split the regular season series, with the Steelers winning 1816 in Pittsburgh in Week 11 and the Ravens winning 3417 in Baltimore in Week 16. This was Amazon Prime Videos first exclusive NFL playoff game. After forcing a punt on the Steelers first offensive possession, the Ravens went 95 yards on their opening drive, culminating with Lamar Jackson hitting Rashod Bateman for a 15-yard touchdown to go up 70, a lead the Ravens never surrendered. Both teams exchanged punts on their next few possessions before Baltimore scored their second touchdown of the game on a 8-yard run from Derrick Henry. Before the half ended, the Ravens scored another touchdown on Jackson pass to Justice Hill, now leading 210. Despite the Steelers eventually pulling within two scores in the third quarter, the fourth quarter went scoreless and the Ravens held on to defeat the Steelers 2814.18 Jackson completed 16 of 21 passes for 175 yards and two touchdo...",
+      "url": "https://en.wikipedia.org/wiki/2024–25_NFL_playoffs",
+      "domain": "en.wikipedia.org",
+      "author": "",
+      "date_published": "2025-11-17T17:29:15.537473",
+      "query": "Updates about india and japan relations",
+      "keywords": [
+        "India-Japan relations",
+        "2024",
+        "latest",
+        "bilateral relations",
+        "Japan",
+        "India"
+      ],
+      "scraped_at": "2025-11-17T17:29:15.661407",
+      "content_length": 5003,
+      "relevance_score": 0.5
+    },
+    {
+      "title": "April 8, 2025KB5055523 (OS Build 26100.3775) - Microsoft",
+      "content": "For information about Windows update terminology, see types of Windows updates and the monthly quality update types. To find an overview of Windows 11, version 24H2, see its update history page. Be sure to follow WindowsUpdate to find out when new content is published to the Windows release health dashboard. Important: Windows updates do not install Microsoft Store application updates. If you are an enterprise user, see Microsoft Store apps - Configuration Manager. If you are a consumer user, see Get updates for apps and games in Microsoft Store. This update addresses security issues for your Windows operating system. This security update includes improvements that were a part of update KB5053656 (released March 27, 2025). The following summary outlines key issues addressed by the KB update after you install it. Also, included are available new features. The bold text within the brackets indicates the item or area of the change. Authentication This update addresses an issue affecting machine password rotation in the Identity Update Manager certificatePublic Key Cryptography for Initial Authentication (PKNIT) path. This issue occurred particularly when Kerberos was used and Credential Guard was enabled, potentially causing user authentication problems. The feature Machine Accounts in Credential Gurad, which is dependent on password rotation via Kerberos, has also been disabled, until a permanent fix is made available. Daylight Saving Time (DST) Update for the Aysen region in Chile to support the government DST change order in 2025. For more info about DST changes, see the Daylight Saving Time  Time Zone Blog. OS Security After installing this update or a later Windows update, a new systemdriveinetpub folder will be created on your device. This folder should not be deleted regardless of whether Internet Information Services (IIS) is enabled on the target device. This behavior is part of changes that increase protection and does not require any action from IT admins and end users. For more information, see CVE-2025-21204. Windows Hello After installing this update or a later Windows update, for enhanced security, Windows Hello facial recognition requires color cameras to see a visible face when signing in. For more information, see CVE-2025-26644. If you installed earlier updates, your device downloads and installs only the new updates contained in this package. For more information about security vulnerabilities, see the Security Update Guide and the April 2025 Security Updates. The following AI components have been updated with this release: AI Component Version Image Search 1.7.820.0 Content Extraction 1.7.820.0 Semantic Analysis 1.7.820.0 This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) ensure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. To learn more about SSUs, see Simplifying on-premises deployment of servicing stack updates. All users Devices that have certain Citrix components installed might be unable to complete installation of the January 2025 Windows security update. This issue was observed on devices with Citrix Session Recording Agent (SRA) version 2411. The 2411 version of this application was released in December 2024. Affected devices might initially download and apply the January 2025 Windows security update correctly, such as via the Windows Update page in Settings. However, when restarting the device to complete the update installation, an error message with text similar to Something didnt go as planned. No need to worry  undoing changes appears. The device will then revert to the Windows updates previously present on the device. This issue likely affects a limited number of organizations as version 2411 of the SRA application is a new version. Home users are not expected to be affected by this issue. The issue has been resolved in Citrix Session Recording Agent version 2503, released on April 28, 2025, and newer versions. For details, see the documentation provided by Citrix at Microsofts January Security Update FailsReverts on a machine with 2411 Session Recording Agent. All users Note: If youre unable to sign in using Windows Hello facial recognition in low light or with a covered camera lens after installing this update, this is a design change for enhanced security, and unrelated to the known issue listed below. See the Improvements section for details.  The following issue only affects devices where the System Guard Secure Launch or Dynamic Root of Trust for Measurement (DRTM) feature is enabled after installing this update. Devices with Secure Launch or DRTM enabled prior to this update, or those with these features disabled, are not impacted by this issue. Were aware of an issue affecting Windows Hello on devices with specific security features enabled. After installing this update and performing a Push button reset...",
+      "url": "https://support.microsoft.com/en-us/topic/april-8-2025-kb5055523-os-build-26100-3775-277a9d11-6ebf-410c-99f7-8c61957461eb",
+      "domain": "support.microsoft.com",
+      "author": "",
+      "date_published": "2025-11-17T17:29:16.047349",
+      "query": "Updates about india and japan relations",
+      "keywords": [
+        "India-Japan relations",
+        "2024",
+        "latest",
+        "bilateral relations",
+        "Japan",
+        "India"
+      ],
+      "scraped_at": "2025-11-17T17:29:16.097403",
+      "content_length": 5003,
+      "relevance_score": 0.5
+    },
+    {
+      "title": "2024 Central Sparks season",
+      "content": "The 2024 season was Central Sparks fifth season, in which they competed in the 50 over Rachael Heyhoe Flint Trophy and the Twenty20 Charlotte Edwards Cup. In the Charlotte Edwards Cup, the side won six of their ten group stage matches, finishing fourth and progressing to the semi-finals, where they lost to The Blaze.1 In the Rachael Heyhoe Flint Trophy, the side finished seventh in the group, winning five of their fourteen matches.2 The side was captained by Evelyn Jones and initially coached by Lloyd Tennant, before he was replaced by Darren Franklin and Justine Dunce in June 2024.34 They played five home matches apiece at Edgbaston Cricket Ground and New Road, Worcester, and one apiece at Chester Road North Ground, Kidderminster and Scorers, Shirley.56 This was Central Sparks final season in existence, effectively being replaced by a professionalised Warwickshire team under the England and Wales Cricket Boards changes to the structure of womens domestic cricket from 2025 onwards.7 On 14 November 2023, Elizabeth Russell announced her retirement from cricket.8 On 30 April 2024, it was announced that Ellie Anderson had gone on a month-long loan to Western Storm.9 On 12 June 2024, Andersons loan was extended until 23 July 2024, and then again on 23 August 2024 until the end of the season.1011 On 24 May 2024, it was announced that the side had loaned Issy Wong to Western Storm for the duration of the Charlotte Edwards Cup.12 Wongs loan was later extended on 27 June 2024 until the end of July, and then again on 23 August 2024 for one match on 26 August 2024.1314 On 31 August 2024, it was announced that Evelyn Jones had gone on loan to North West Thunder for the remainder of the season.15 On 23 April 2024, the side announced the signing of Courtney Webb as an overseas player, with her stint beginning in May.16 On 25 August 2024, Meg Austin and Hannah Hardwick were included in a matchday squad for the first time.17 On 3 September 2024, Sophie Beech was included in a matchday squad for the first time.18 On 1 November 2023, it was announced that Charis Pavely had signed her first professional contract with the side.19 On 1 June 2024, it was announced that Head Coach Lloyd Tennant and Assistant Coach Dominic Ostler had left the club, with Darren Franklin and Justine Dunce taking over leadership of the side under the end of the season.4 advanced to the Semi-finals advanced to the Semi-finals",
+      "url": "https://en.wikipedia.org/wiki/2024_Central_Sparks_season",
+      "domain": "en.wikipedia.org",
+      "author": "",
+      "date_published": "2025-11-17T17:29:17.891011",
+      "query": "Updates about india and japan relations",
+      "keywords": [
+        "India-Japan relations",
+        "2024",
+        "latest",
+        "bilateral relations",
+        "Japan",
+        "India"
+      ],
+      "scraped_at": "2025-11-17T17:29:17.989175",
+      "content_length": 2424,
+      "relevance_score": 0.30000000000000004
+    },
+    {
+      "title": "Date Calculator",
+      "content": "Find the number of years, months, weeks, and days between dates. Click Settings to define holidays. Holiday Settings Business Days Settings RelatedTime Calculator  Age Calculator The Gregorian calendar is the most prevalently used calendar today. Within this calendar, a standard year consists of 365 days with a leap day being introduced to the month of February during a leap year. The months of April, June, September, and November have 30 days, while the rest have 31 days except for February, which has 28 days in a standard year, and 29 in a leap year. The Gregorian calendar is a reformed version of the Julian calendar, which was itself a modification of the ancient Roman calendar. The ancient Roman calendar was believed to be an observational lunar calendar, based on the cycles of the moons phases. The Romans were then believed to have adopted a 10-month calendar with 304 days, leaving the remaining 50 or so days as an unorganized winter. This calendar allowed the summer and winter months to become completely misplaced, leading to the adoption of more accurate calendars. The Republican calendar later used by Rome followed Greek calendars in its assumptions of 29.5 days in a lunar cycle and 12.5 synodic months in a solar year, which align every fourth year upon the addition of the intercalary months of January and February. From this point, many attempts were made to align the Republican calendar with the solar year including the addition of an extra month to certain years to supplant the lack of days in a particular year. In 46 BC, the calendar was further reformed by Julius Caesar, introducing an algorithm that removed the dependence of calendars from the observation of the new moon. In order to accomplish this, Caesar inserted an additional 10 days into the Republican calendar, making the total number of days in a year 365. He also added the intercalation of a leap day every fourth year, all in an attempt to further synchronize the Roman calendar with the solar year. Despite all efforts, the Julian calendar still required further reform, since the calendar drifted with respect to the equinoxes and solstices by approximately 11 minutes per year. By 1582, this resulted in a difference of 10 days from what was expected. Pope Gregory XIII addressed this by essentially skipping 10 days in the date, making the day after October 4, 1582, October 15. An adjustment was also made to the algorithm of the Julian calendar that changed which century years would be considered leap years. Under the Gregorian calendar, century years not divisible by 400 would not be leap years. These changes reduced the error from 1 day in 128 years, to 1 day in 3,030 years with respect to the current value of the mean solar year. The adoption of the Gregorian calendar occurred slowly over a period of centuries, and despite many proposals to further reform the calendar, the Gregorian Calendar still prevails as the most commonly used dating system worldwide. A holiday is a day that, either by custom or by law, is set aside such that regular activities like going to work or school are suspended, or at least reduced. The term holiday can be interpreted differently, depending on the region. In the U.S., paid leave is typically referred to as vacation, while national, religious, or cultural days off are referred to exclusively as holiday. In some regions, however, such as the United Kingdom or former British colonies, the term holiday can also refer to paid leave. Generally, holidays are meant to commemorate some event, person, or group of cultural or religious significance. Although certain holidays, such as Christmas and New Years Day, are widely celebrated worldwide, most countries have their own set of holidays that are specific to the country, and even the same holidays may be observed differently within countries: some may receive a full suspension of typical daily activities, while others may only get partial days off. Certain countries have holidays that essentially shut down almost all businesses. As an example, in Brazil, Carnaval do Brasil results in almost a full week in which only industrial production, retail establishments, or carnival-related businesses, function. This calculator is mainly geared towards U.S. holidays, but holidays specific to a given country can be entered manually. Certain holidays can also be excluded. For a further level of specificity, federal holidays in the U.S. refer to holidays that have been recognized by the U.S. government; on these days, non-essential federal government offices are closed, and all federal employees receive paid leave. This is not necessarily true in the private sector, however, and which federal holidays a private sector employee receives is largely dependent on the discretion of the company. In some cases, an employee who is required to work on a federal holiday may receive compensation in the form of holiday pay in addition to their regular wages. Certain holidays such as New Ye...",
+      "url": "https://www.calculator.net/date-calculator.html",
+      "domain": "calculator.net",
+      "author": "",
+      "date_published": "2025-11-17T17:29:24.552329",
+      "query": "Updates about india and japan relations",
+      "keywords": [
+        "India-Japan relations",
+        "2024",
+        "latest",
+        "bilateral relations",
+        "Japan",
+        "India"
+      ],
+      "scraped_at": "2025-11-17T17:29:24.606822",
+      "content_length": 5003,
+      "relevance_score": 0.2
+    },
+    {
+      "title": "Ease India Trip Blog - Page 118 of 118",
+      "content": "Discover the ultimate 4-day itinerary for Udaipur! From exploring historic palaces to enjoying serene lakes, this guide helps you plan the perfect trip to the City of Lakes with day-by-day activities. How to Plan a 4-Day Trip to Udaipur  A Complete Itinerary Read More ",
+      "url": "https://www.easeindiatrip.com/blog/page/118/",
+      "domain": "easeindiatrip.com",
+      "author": "",
+      "date_published": "2025-11-17T17:29:19.646112",
+      "query": "Updates about india and japan relations",
+      "keywords": [
+        "India-Japan relations",
+        "2024",
+        "latest",
+        "bilateral relations",
+        "Japan",
+        "India"
+      ],
+      "scraped_at": "2025-11-17T17:29:19.652175",
+      "content_length": 269,
+      "relevance_score": 0.2
+    }
+  ]
+}

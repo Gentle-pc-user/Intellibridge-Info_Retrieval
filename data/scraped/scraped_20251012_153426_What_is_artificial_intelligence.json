@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "query": "What is artificial intelligence?",
+    "domain": "general",
+    "scraped_at": "2025-10-12T15:34:26.174864",
+    "article_count": 4,
+    "total_content_length": 9760
+  },
+  "articles": [
+    {
+      "title": "Artificial intelligence - Wikipedia",
+      "content": "Artificial intelligence (AI) is the capability of computational systems to perform different tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.1 High-profile applications of AI include advanced web search engines (e.g., Google Search); recommendation systems (used by YouTube, Amazon, and Netflix); virtual assistants (e.g., Google Assistant, Siri, and Alexa); autonomous vehicles (e.g., Waymo); generative and creative tools (e.g., language models and AI art); and superhuman play and analysis in strategy games (e.g., chess and Go). However, many AI applications are not perceived as AI: A lot of cutting edge AI has filtered into general applications, often without being called AI because once something becomes useful enough and common enough its not labeled AI anymore.23 Various subfields of AI research are centered around particular goals and the use of particular tools. The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, perception, and support for robotics.a To reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics.b AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields.4 Some companies, such as OpenAI, Google DeepMind and Meta,5 aim to create artificial general intelligence (AGI)AI that can complete virtually any cognitive task at least as well as a human. Artificial intelligence was founded as an academic discipline in 1956,6 and the field went through multiple cycles of optimism throughout its history,78 followed by periods of disappointment and loss of funding, known as AI winters.910 Funding and interest vastly increased after 2012 when graphics processing units started being used to accelerate neural networks and deep learning outperformed previous AI techniques.11 This growth accelerated further after 2017 with the transformer architecture.12 In the 2020s, an ongoing period of rapid progress in advanced generative AI became known as the AI boom. Generative AIs ability to create and modify content has led to several unintended consequences and harms, which has raised ethical concerns about AIs long-term effects and potential existential risks, prompting discussions about regulatory policies to ensure the safety and benefits of the technology. The general problem of simulating (or creating) intelligence has been broken into subproblems. These consist of particular traits or capabilities that researchers expect an intelligent system to display. The traits described below have received the most attention and cover the scope of AI research.a Early researchers developed algorithms that imitated step-by-step reasoning that humans use when they solve puzzles or make logical deductions.13 By the late 1980s and 1990s, methods were developed for dealing with uncertain or incomplete information, employing concepts from probability and economics.14 Many of these algorithms are insufficient for solving large reasoning problems because they experience a combinatorial explosion: They become exponentially slower as the problems grow.15 Even humans rarely use the step-by-step deduction that early AI research could model. They solve most of their problems using fast, intuitive judgments.16 Accurate and efficient reasoning is an unsolved problem. Knowledge representation and knowledge engineering17 allow AI programs to answer questions intelligently and make deductions about real-world facts. Formal knowledge representations are used in content-based indexing and retrieval,18 scene interpretation,19 clinical decision support,20 knowledge discovery (mining interesting and actionable inferences from large databases),21 and other areas.22 A knowledge base is a body of knowledge represented in a form that can be used by a program. An ontology is the set of objects, relations, concepts, and properties used by a particular domain of knowledge.23 Knowledge bases need to represent things such as objects, properties, categories, and relations between objects;24 situations, events, states, and time;25 causes and effects;26 knowledge about knowledge (what we know about what other people know);27 default reasoning (things that humans assume are true until they are told differently and will remain true even when other facts are changing);28 and many other aspects and domains of knowledge. Among the most difficult problems in knowledge representation are the breadth of commonsense knowledge (the set of atomic fa...",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "domain": "en.wikipedia.org",
+      "author": "",
+      "date_published": "2025-10-12T15:34:25.409953",
+      "query": "What is artificial intelligence?",
+      "keywords": [
+        "artificial intelligence",
+        "AI",
+        "machine learning",
+        "neural networks",
+        "algorithms",
+        "automation",
+        "deep learning"
+      ],
+      "scraped_at": "2025-10-12T15:34:25.666745",
+      "content_length": 5003,
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Artificial intelligence (AI) Definition, Examples, Types ...",
+      "content": "Our editors will review what youve submitted and determine whether to revise the article. Artificial intelligence is the ability of a computer or computer-controlled robot to perform tasks that are commonly associated with the intellectual processes characteristic of humans, such as the ability to reason. Although there are as of yet no AIs that match full human flexibility over wider domains or in tasks requiring much everyday knowledge, some AIs perform specific tasks as well as humans. Learn more. No, artificial intelligence and machine learning are not the same, but they are closely related. Machine learning is the method to train a computer to learn from its inputs but without explicit programming for every circumstance. Machine learning helps a computer to achieve artificial intelligence. artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. The term is frequently applied to the project of developing systems endowed with the intellectual processes characteristic of humans, such as the ability to reason, discover meaning, generalize, or learn from past experience. Since their development in the 1940s, digital computers have been programmed to carry out very complex taskssuch as discovering proofs for mathematical theorems or playing chesswith great proficiency. Despite continuing advances in computer processing speed and memory capacity, there are as yet no programs that can match full human flexibility over wider domains or in tasks requiring much everyday knowledge. On the other hand, some programs have attained the performance levels of human experts and professionals in executing certain specific tasks, so that artificial intelligence in this limited sense is found in applications as diverse as medical diagnosis, computer search engines, voice or handwriting recognition, and chatbots. Explore the ProCon debate All but the simplest human behavior is ascribed to intelligence, while even the most complicated insect behavior is usually not taken as an indication of intelligence. What is the difference? Consider the behavior of the digger wasp, Sphex ichneumoneus. When the female wasp returns to her burrow with food, she first deposits it on the threshold, checks for intruders inside her burrow, and only then, if the coast is clear, carries her food inside. The real nature of the wasps instinctual behavior is revealed if the food is moved a few inches away from the entrance to her burrow while she is inside: on emerging, she will repeat the whole procedure as often as the food is displaced. Intelligenceconspicuously absent in the case of the waspmust include the ability to adapt to new circumstances. Psychologists generally characterize human intelligence not by just one trait but by the combination of many diverse abilities. Research in AI has focused chiefly on the following components of intelligence: learning, reasoning, problem solving, perception, and using language. There are a number of different forms of learning as applied to artificial intelligence. The simplest is learning by trial and error. For example, a simple computer program for solving mate-in-one chess problems might try moves at random until mate is found. The program might then store the solution with the position so that, the next time the computer encountered the same position, it would recall the solution. This simple memorizing of individual items and proceduresknown as rote learningis relatively easy to implement on a computer. More challenging is the problem of implementing what is called generalization. Generalization involves applying past experience to analogous new situations. For example, a program that learns the past tense of regular English verbs by rote will not be able to produce the past tense of a word such as jump unless the program was previously presented with jumped, whereas a program that is able to generalize can learn the add -ed rule for regular verbs ending in a consonant and so form the past tense of jump on the basis of experience with similar verbs. (Read Ray Kurzweils Britannica essay on the future of Nonbiological Man.)",
+      "url": "https://www.britannica.com/technology/artificial-intelligence",
+      "domain": "britannica.com",
+      "author": "",
+      "date_published": "2025-10-11T00:00:00",
+      "query": "What is artificial intelligence?",
+      "keywords": [
+        "artificial intelligence",
+        "AI",
+        "machine learning",
+        "neural networks",
+        "algorithms",
+        "automation",
+        "deep learning"
+      ],
+      "scraped_at": "2025-10-12T15:34:26.173901",
+      "content_length": 4203,
+      "relevance_score": 0.8
+    },
+    {
+      "title": "Google AI - How were making AI helpful for everyone",
+      "content": "Start building something new, with cutting-edge AI models and tools Explore 200 models on our enterprise platform with tools and features for AI development Our most intelligent AI models A family of lightweight, state-of-the art open models Our state-of-the-art video generation model Our leading text-to-image model Our latest music generation model",
+      "url": "https://ai.google/",
+      "domain": "ai.google",
+      "author": "",
+      "date_published": "2025-10-12T15:34:24.233259",
+      "query": "What is artificial intelligence?",
+      "keywords": [
+        "artificial intelligence",
+        "AI",
+        "machine learning",
+        "neural networks",
+        "algorithms",
+        "automation",
+        "deep learning"
+      ],
+      "scraped_at": "2025-10-12T15:34:24.269661",
+      "content_length": 351,
+      "relevance_score": 0.4
+    },
+    {
+      "title": "What is AI - DeepAI",
+      "content": "Please sign up or login with your details Refill your membership to continue using DeepAI Share Share your generations with friends X Facebook Linkedin Reddit Use your Google Account to sign in to DeepAI",
+      "url": "https://deepai.org/chat/what-is-ai",
+      "domain": "deepai.org",
+      "author": "",
+      "date_published": "2025-10-12T15:34:25.696691",
+      "query": "What is artificial intelligence?",
+      "keywords": [
+        "artificial intelligence",
+        "AI",
+        "machine learning",
+        "neural networks",
+        "algorithms",
+        "automation",
+        "deep learning"
+      ],
+      "scraped_at": "2025-10-12T15:34:25.702909",
+      "content_length": 203,
+      "relevance_score": 0.2
+    }
+  ]
+}

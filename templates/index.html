@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intellibridge - AI Query Processing</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        background: #ffffff;
+        color: #000000;
+      }
+
+      .app-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 24px 20px 40px;
+        box-sizing: border-box;
+      }
+
+      .header-row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+      }
+
+      .header-center {
+        text-align: center;
+      }
+
+      .main-header {
+        font-size: 3.2rem;
+        background: linear-gradient(
+          90deg,
+          #1e3a8a 0%,
+          #3b82f6 50%,
+          #60a5fa 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        margin: 0 0 8px 0;
+        font-weight: bold;
+      }
+
+      .subtitle {
+        font-size: 1.05rem;
+        color: #64748b;
+        text-align: center;
+        margin: 0 0 4px 0;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: 24px;
+        align-items: flex-start;
+      }
+
+      @media (max-width: 900px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .sidebar {
+        background: #f8fafc;
+        border-radius: 16px;
+        padding: 20px 18px;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.08);
+        border: 1px solid #e2e8f0;
+      }
+
+      .sidebar-section + .sidebar-section {
+        margin-top: 16px;
+      }
+
+      .sidebar hr {
+        border: none;
+        border-top: 1px solid #e2e8f0;
+        margin: 16px 0;
+      }
+
+      .icon-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      .icon-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+
+      .icon-row h2 {
+        margin: 0;
+        font-size: 1.1rem;
+        color: #000000;
+      }
+
+      .metric-card {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        color: white;
+        padding: 1.2rem 1.4rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+        margin: 0.5rem 0;
+        border: 1px solid #e0e7ff;
+        font-size: 0.95rem;
+        line-height: 1.4;
+      }
+
+      .feature-card {
+        background: #ffffff;
+        padding: 0.7rem 0.8rem;
+        border-radius: 10px;
+        border: 1px solid #e2e8f0;
+        margin: 0.4rem 0;
+        transition: all 0.3s ease;
+        color: #000000;
+        font-size: 0.9rem;
+      }
+
+      .feature-card strong {
+        color: #000000;
+      }
+
+      .feature-card:hover {
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+        transform: translateY(-1px);
+      }
+
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .main-top {
+        display: grid;
+        grid-template-columns: minmax(0, 3fr) minmax(0, 1.3fr);
+        gap: 16px;
+      }
+
+      @media (max-width: 900px) {
+        .main-top {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .query-box {
+        background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        padding: 1.8rem 1.6rem;
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+        margin: 0.4rem 0;
+        border: 2px solid #dbeafe;
+      }
+
+      .query-box h2 {
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+        font-size: 1.3rem;
+        color: #1e3a8a;
+      }
+
+      .field-label {
+        display: block;
+        margin-bottom: 0.3rem;
+        font-size: 0.9rem;
+        color: #0f172a;
+      }
+
+      .query-textarea {
+        width: 100%;
+        min-height: 110px;
+        resize: vertical;
+        padding: 0.7rem 0.8rem;
+        border-radius: 10px;
+        border: 2px solid #dbeafe;
+        font-size: 0.95rem;
+        font-family: inherit;
+        box-sizing: border-box;
+      }
+
+      .query-textarea:focus {
+        outline: none;
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+      }
+
+      .button-row {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .primary-button {
+        background: linear-gradient(90deg, #1e3a8a 0%, #3b82f6 100%);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.7rem 1.6rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        min-width: 180px;
+      }
+
+      .primary-button:hover {
+        background: linear-gradient(90deg, #1e40af 0%, #2563eb 100%);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+      }
+
+      .warning-text {
+        margin-top: 0.6rem;
+        font-size: 0.88rem;
+        color: #b91c1c;
+      }
+
+      .stats-box {
+        background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+        padding: 1.4rem 1.2rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.1);
+        border: 1px solid #e2e8f0;
+      }
+
+      .stats-box h2 {
+        margin: 0;
+        font-size: 1.15rem;
+        color: #1e3a8a;
+      }
+
+      .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      @media (max-width: 600px) {
+        .metric-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .metric-item {
+        background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+        border: 1px solid #dbeafe;
+        border-radius: 10px;
+        padding: 0.6rem 0.75rem;
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
+      }
+
+      .metric-label {
+        font-size: 0.8rem;
+        color: #64748b;
+      }
+
+      .metric-value {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #0f172a;
+      }
+
+      .info-message {
+        font-size: 0.9rem;
+        color: #475569;
+        margin-top: 0.4rem;
+      }
+
+      .results-header {
+        text-align: center;
+        color: #1e3a8a;
+        margin: 2rem 0 1rem 0;
+        font-size: 1.6rem;
+      }
+
+      .tabs {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+      }
+
+      .tab-list {
+        display: flex;
+        gap: 6px;
+        background: #f1f5f9;
+        border-radius: 14px 14px 0 0;
+        padding: 6px;
+      }
+
+      .tab {
+        flex: 1;
+        border: none;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #1e3a8a;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .tab.active {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        color: #ffffff;
+        box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
+      }
+
+      .tab-panels {
+        padding: 1.3rem 1.4rem 1.6rem 1.4rem;
+      }
+
+      .tab-panel {
+        display: none;
+      }
+
+      .tab-panel.active {
+        display: block;
+      }
+
+      .success-banner {
+        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        color: white;
+        padding: 0.8rem 1rem;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+      }
+
+      .error-banner {
+        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        color: white;
+        padding: 0.8rem 1rem;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 15px rgba(239, 68, 68, 0.2);
+      }
+
+      .response-card {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        color: white;
+        padding: 1.4rem 1.3rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(30, 58, 138, 0.2);
+        margin: 0.8rem 0 1.3rem 0;
+        max-height: 380px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-size: 0.95rem;
+      }
+
+      .full-response-textarea {
+        width: 100%;
+        min-height: 200px;
+        resize: vertical;
+        border-radius: 10px;
+        border: 1px solid #d4d4d8;
+        padding: 0.8rem;
+        font-family: monospace;
+        font-size: 0.9rem;
+        box-sizing: border-box;
+      }
+
+      .download-section {
+        margin-top: 0.9rem;
+      }
+
+      .download-button {
+        background: #0f172a;
+        color: white;
+        border-radius: 8px;
+        padding: 0.55rem 1.2rem;
+        border: none;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+
+      .download-button:hover {
+        background: #020617;
+      }
+
+      .keyword-badge {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        color: white;
+        padding: 0.35rem 0.9rem;
+        margin: 0.15rem;
+        border-radius: 20px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 0.82rem;
+        box-shadow: 0 2px 8px rgba(30, 58, 138, 0.2);
+      }
+
+      .details-card {
+        background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        color: #1e3a8a;
+        padding: 1.1rem 1rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.15);
+        margin: 0.9rem 0 1rem 0;
+        border: 1px solid #dbeafe;
+      }
+
+      .details-card pre {
+        margin: 0;
+        font-family: monospace;
+        white-space: pre-wrap;
+        font-size: 0.86rem;
+      }
+
+      .article {
+        border-radius: 10px;
+        border: 1px solid #e2e8f0;
+        margin: 0.5rem 0;
+        background: #ffffff;
+      }
+
+      .article > summary {
+        padding: 0.6rem 0.8rem;
+        cursor: pointer;
+        font-weight: 500;
+        list-style: none;
+      }
+
+      .article-body {
+        padding: 0.6rem 0.9rem 0.9rem 0.9rem;
+        border-top: 1px solid #e5e7eb;
+        font-size: 0.9rem;
+      }
+
+      .article-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1.5fr);
+        gap: 10px;
+        margin-bottom: 0.6rem;
+      }
+
+      @media (max-width: 700px) {
+        .article-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .article-content textarea {
+        width: 100%;
+        min-height: 120px;
+        resize: vertical;
+        border-radius: 8px;
+        border: 1px solid #d4d4d8;
+        padding: 0.5rem 0.6rem;
+        font-size: 0.86rem;
+        font-family: monospace;
+        box-sizing: border-box;
+      }
+
+      .warning-message {
+        margin-top: 0.4rem;
+        color: #b45309;
+        font-size: 0.9rem;
+      }
+
+      a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="header-row">
+        <div class="header-center">
+          <h1 class="main-header">Intellibridge</h1>
+          <p class="subtitle">
+            Intelligent Query Processing with Advanced Keyword Extraction &amp;
+            Knowledge Base Integration
+          </p>
+        </div>
+      </div>
+
+      <div class="layout">
+        <aside class="sidebar">
+          <div class="sidebar-section">
+            <div class="icon-row">
+              <img src="{{ url_for('static', filename='images/system_status_icon.png') }}" ...>
+              <h2>System Status</h2>
+            </div>
+            <div class="metric-card">System Ready<br />Agents Initialized</div>
+          </div>
+
+          <hr />
+
+          <div class="sidebar-section">
+            <div class="icon-row">
+              <img
+                src="templates/Images/feature_icon.png"
+                alt="Features"
+                class="icon-img"
+              />
+              <h2>Features</h2>
+            </div>
+            <div class="feature-card">
+              <strong>Smart Keywords Extraction</strong><br />
+              Advanced AI-powered keyword identification
+            </div>
+            <div class="feature-card">
+              <strong>Automated Web Search</strong><br />
+              Real-time content discovery and scraping
+            </div>
+            <div class="feature-card">
+              <strong>Knowledge Base Integration</strong><br />
+              Intelligent information synthesis
+            </div>
+            <div class="feature-card">
+              <strong>AI-Powered Responses</strong><br />
+              Context-aware answer generation
+            </div>
+            <div class="feature-card">
+              <strong>Real-time Processing</strong><br />
+              Fast and efficient query handling
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="sidebar-section">
+            <div class="icon-row">
+              <img
+                src="templates/Images/process_flow_icon.png"
+                alt="Process Flow"
+                class="icon-img"
+              />
+              <h2>Process Flow</h2>
+            </div>
+            <div class="feature-card">
+              <strong>1. Extract</strong> relevant keywords
+            </div>
+            <div class="feature-card">
+              <strong>2. Search</strong> recent content
+            </div>
+            <div class="feature-card">
+              <strong>3. Generate</strong> AI response
+            </div>
+          </div>
+        </aside>
+
+        <main class="main-content">
+          <div class="main-top">
+            <section class="query-box">
+              <h2>Ask Your Question</h2>
+              <label class="field-label" for="queryInput"
+                >Enter your question:</label
+              >
+              <textarea
+                id="queryInput"
+                class="query-textarea"
+                placeholder="e.g., What are the latest developments in autonomous drone navigation systems?"
+              ></textarea>
+              <div class="button-row">
+                <button
+                  class="primary-button"
+                  type="button"
+                  onclick="processQuery()"
+                >
+                  Process Query
+                </button>
+              </div>
+              <div id="queryWarning" class="warning-text" style="display: none">
+                Please enter a question!
+              </div>
+            </section>
+
+            <section class="stats-box">
+              <div class="icon-row">
+                <img
+                  src="templates/Images/quick_stats_icon.png"
+                  alt="Quick Stats"
+                  class="icon-img"
+                />
+                <h2>Quick Stats</h2>
+              </div>
+              <div id="statsContent">
+                <div class="info-message">Process a query to see stats</div>
+              </div>
+            </section>
+          </div>
+
+          <section id="resultsSection" style="display: none">
+            <h2 class="results-header">Results</h2>
+            <div class="tabs">
+              <div class="tab-list">
+                <button
+                  class="tab active"
+                  data-tab="response"
+                  type="button"
+                  onclick="setActiveTab('response')"
+                >
+                  AI Response
+                </button>
+                <button
+                  class="tab"
+                  data-tab="keywords"
+                  type="button"
+                  onclick="setActiveTab('keywords')"
+                >
+                  Keywords Analysis
+                </button>
+                <button
+                  class="tab"
+                  data-tab="details"
+                  type="button"
+                  onclick="setActiveTab('details')"
+                >
+                  Processing Details
+                </button>
+                <button
+                  class="tab"
+                  data-tab="scraped"
+                  type="button"
+                  onclick="setActiveTab('scraped')"
+                >
+                  Scraped Data
+                </button>
+              </div>
+              <div class="tab-panels">
+                <div id="tab-response" class="tab-panel active">
+                  <div id="responseStatus"></div>
+                  <div id="responseCard" class="response-card"></div>
+                  <h3>Full Response (Scrollable)</h3>
+                  <textarea
+                    id="fullResponseText"
+                    class="full-response-textarea"
+                    readonly
+                  ></textarea>
+                  <div class="download-section">
+                    <button
+                      class="download-button"
+                      type="button"
+                      onclick="downloadResponse()"
+                    >
+                      Download Response as JSON
+                    </button>
+                  </div>
+                </div>
+
+                <div id="tab-keywords" class="tab-panel">
+                  <h3>Keywords Analysis</h3>
+                  <div id="keywordsMetrics" class="metric-grid"></div>
+                  <div id="keywordsBadges" style="margin-top: 0.6rem"></div>
+                </div>
+
+                <div id="tab-details" class="tab-panel">
+                  <h3>Processing Details</h3>
+                  <div id="detailsMetrics" class="metric-grid"></div>
+                  <div id="processingStatus" style="margin-top: 0.8rem"></div>
+                  <div class="details-card">
+                    <pre id="detailsJson"></pre>
+                  </div>
+                </div>
+
+                <div id="tab-scraped" class="tab-panel">
+                  <h3>Scraped Data</h3>
+                  <div id="scrapedInfo" class="success-message"></div>
+                  <div id="scrapedArticles"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div
+            id="globalError"
+            class="error-banner"
+            style="display: none; margin-top: 1rem"
+          ></div>
+          <div
+            id="globalLoading"
+            class="success-banner"
+            style="display: none; margin-top: 1rem"
+          >
+            Processing your query...
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script>
+      let lastResult = null;
+      let lastQuery = "";
+
+      function setActiveTab(name) {
+        const tabs = document.querySelectorAll(".tab");
+        const panels = document.querySelectorAll(".tab-panel");
+        tabs.forEach((t) => {
+          t.classList.toggle("active", t.getAttribute("data-tab") === name);
+        });
+        panels.forEach((p) => {
+          p.classList.toggle("active", p.id === "tab-" + name);
+        });
+      }
+
+      function escapeHtml(text) {
+        if (text === null || text === undefined) return "";
+        return String(text)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+      }
+
+      async function processQuery() {
+        const queryInput = document.getElementById("queryInput");
+        const warning = document.getElementById("queryWarning");
+        const resultsSection = document.getElementById("resultsSection");
+        const globalError = document.getElementById("globalError");
+        const globalLoading = document.getElementById("globalLoading");
+
+        const query = queryInput.value.trim();
+        if (!query) {
+          warning.style.display = "block";
+          return;
+        }
+
+        warning.style.display = "none";
+        globalError.style.display = "none";
+        resultsSection.style.display = "none";
+        globalLoading.style.display = "block";
+
+        try {
+          const response = await fetch("/api/query", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ query }),
+          });
+
+          const data = await response.json();
+          globalLoading.style.display = "none";
+
+          if (!response.ok) {
+            globalError.textContent =
+              "Error: " + (data.error || "Unknown error");
+            globalError.style.display = "block";
+            return;
+          }
+
+          lastResult = data;
+          lastQuery = query;
+
+          renderStats(data);
+          renderResponseTab(data);
+          renderKeywordsTab(data);
+          renderDetailsTab(data);
+          renderScrapedTab(data);
+
+          resultsSection.style.display = "block";
+          setActiveTab("response");
+        } catch (error) {
+          globalLoading.style.display = "none";
+          globalError.textContent = "Network Error: " + error.message;
+          globalError.style.display = "block";
+        }
+      }
+
+      function renderStats(data) {
+        const statsContent = document.getElementById("statsContent");
+        if (!data) {
+          statsContent.innerHTML =
+            '<div class="info-message">Process a query to see stats</div>';
+          return;
+        }
+        const keywords = data.keywords || [];
+        const confidence =
+          typeof data.keywords_confidence === "number"
+            ? data.keywords_confidence.toFixed(2)
+            : "0.00";
+        const articles = data.scraped_articles || 0;
+        const success = data.success !== false;
+
+        statsContent.innerHTML = `
+                <div class="metric-grid">
+                    <div class="metric-item">
+                        <div class="metric-label">Keywords</div>
+                        <div class="metric-value">${keywords.length}</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-label">Confidence</div>
+                        <div class="metric-value">${confidence}</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-label">Articles</div>
+                        <div class="metric-value">${articles}</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-label">Status</div>
+                        <div class="metric-value">${
+                          success ? "Success" : "Failed"
+                        }</div>
+                    </div>
+                </div>
+            `;
+      }
+
+      function renderResponseTab(data) {
+        const statusDiv = document.getElementById("responseStatus");
+        const card = document.getElementById("responseCard");
+        const full = document.getElementById("fullResponseText");
+
+        const success = data.success !== false;
+        statusDiv.innerHTML = success
+          ? '<div class="success-banner">Query processed successfully!</div>'
+          : '<div class="error-banner">Processing failed</div>';
+
+        const resp = data.response || "No response generated";
+        card.textContent = resp;
+        full.value = resp;
+      }
+
+      function renderKeywordsTab(data) {
+        const metrics = document.getElementById("keywordsMetrics");
+        const badges = document.getElementById("keywordsBadges");
+        const keywords = data.keywords || [];
+        const confidence =
+          typeof data.keywords_confidence === "number"
+            ? data.keywords_confidence.toFixed(2)
+            : "0.00";
+        const articles = data.scraped_articles || 0;
+
+        metrics.innerHTML = `
+                <div class="metric-item">
+                    <div class="metric-label">Keywords Extracted</div>
+                    <div class="metric-value">${keywords.length}</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-label">Confidence Score</div>
+                    <div class="metric-value">${confidence}</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-label">Articles Found</div>
+                    <div class="metric-value">${articles}</div>
+                </div>
+            `;
+
+        if (!keywords.length) {
+          badges.innerHTML =
+            '<div class="info-message">No keywords extracted.</div>';
+          return;
+        }
+
+        badges.innerHTML = keywords
+          .map((k) => `<span class="keyword-badge">${escapeHtml(k)}</span>`)
+          .join("");
+      }
+
+      function renderDetailsTab(data) {
+        const metrics = document.getElementById("detailsMetrics");
+        const status = document.getElementById("processingStatus");
+        const detailsJson = document.getElementById("detailsJson");
+
+        const keywords = data.keywords || [];
+        const articles = data.scraped_articles || 0;
+        const success = data.success !== false;
+        const processingTime =
+          data.metadata && typeof data.metadata.processing_time === "number"
+            ? data.metadata.processing_time.toFixed(2) + "s"
+            : "Real-time";
+
+        metrics.innerHTML = `
+                <div class="metric-item">
+                    <div class="metric-label">Articles Found</div>
+                    <div class="metric-value">${articles}</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-label">Processing Time</div>
+                    <div class="metric-value">${processingTime}</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-label">Keywords Extracted</div>
+                    <div class="metric-value">${keywords.length}</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-label">Success Rate</div>
+                    <div class="metric-value">${success ? "100%" : "0%"}</div>
+                </div>
+            `;
+
+        status.innerHTML = success
+          ? '<div class="success-banner">Query processed successfully!</div>'
+          : '<div class="error-banner">Processing failed</div>';
+
+        const technical = {
+          timestamp:
+            data.timestamp ||
+            (data.metadata && data.metadata.timestamp) ||
+            null,
+          success: success,
+          keywords_count: keywords.length,
+          articles_scraped: articles,
+          keywords_confidence: data.keywords_confidence || 0.0,
+        };
+
+        detailsJson.textContent = JSON.stringify(technical, null, 2);
+      }
+
+      function renderScrapedTab(data) {
+        const info = document.getElementById("scrapedInfo");
+        const container = document.getElementById("scrapedArticles");
+        const scraped = data.scraped_data || [];
+
+        if (!scraped.length) {
+          info.textContent = "";
+          container.innerHTML =
+            '<div class="warning-message">No scraped data available for this query. Try asking a different question.</div>';
+          return;
+        }
+
+        info.textContent = "Found " + scraped.length + " scraped articles";
+
+        const parts = scraped.map((article, idx) => {
+          const i = idx + 1;
+          const title = article.title || "Untitled";
+          const url = article.url || "#";
+          const domain = article.domain || "N/A";
+          const author = article.author || "N/A";
+          const date = article.date_published || "N/A";
+          const content = article.content || "";
+          const length = content.length || 0;
+          const preview =
+            content.length > 500 ? content.slice(0, 500) + "..." : content;
+          const kws = Array.isArray(article.keywords) ? article.keywords : [];
+
+          const kwBadges = kws
+            .map((k) => `<span class="keyword-badge">${escapeHtml(k)}</span>`)
+            .join("");
+
+          return `
+                    <details class="article">
+                        <summary>Article ${i}: ${escapeHtml(title).slice(
+            0,
+            60
+          )}${title.length > 60 ? "..." : ""}</summary>
+                        <div class="article-body">
+                            <div class="article-grid">
+                                <div>
+                                    <div><strong>Title:</strong> ${escapeHtml(
+                                      title
+                                    )}</div>
+                                    <div><strong>URL:</strong> <a href="${encodeURI(
+                                      url
+                                    )}" target="_blank">${escapeHtml(
+            url
+          )}</a></div>
+                                    <div><strong>Domain:</strong> ${escapeHtml(
+                                      domain
+                                    )}</div>
+                                </div>
+                                <div>
+                                    <div><strong>Author:</strong> ${escapeHtml(
+                                      author
+                                    )}</div>
+                                    <div><strong>Date:</strong> ${escapeHtml(
+                                      date
+                                    )}</div>
+                                    <div><strong>Length:</strong> ${length} chars</div>
+                                </div>
+                            </div>
+                            ${
+                              preview
+                                ? `
+                            <div class="article-content">
+                                <div><strong>Content Preview:</strong></div>
+                                <textarea readonly>${escapeHtml(
+                                  preview
+                                )}</textarea>
+                            </div>`
+                                : ""
+                            }
+                            ${
+                              kws.length
+                                ? `
+                            <div class="article-keywords">
+                                <div><strong>Keywords:</strong></div>
+                                <div>${kwBadges}</div>
+                            </div>`
+                                : ""
+                            }
+                        </div>
+                    </details>
+                `;
+        });
+
+        container.innerHTML = parts.join("");
+      }
+
+      function downloadResponse() {
+        if (!lastResult) return;
+        const payload = {
+          query: lastQuery,
+          response: lastResult.response || "",
+          keywords: lastResult.keywords || [],
+          keywords_confidence: lastResult.keywords_confidence || 0.0,
+          scraped_articles: lastResult.scraped_articles || 0,
+          timestamp:
+            lastResult.timestamp ||
+            (lastResult.metadata && lastResult.metadata.timestamp) ||
+            new Date().toISOString(),
+        };
+
+        const blob = new Blob([JSON.stringify(payload, null, 2)], {
+          type: "application/json",
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download =
+          "response_" +
+          new Date().toISOString().replace(/[-:.]/g, "").slice(0, 15) +
+          ".json";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }
+    </script>
+  </body>
+</html>

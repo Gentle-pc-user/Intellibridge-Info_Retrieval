@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "query": "What are the latest developments in robotics",
+    "domain": "general",
+    "scraped_at": "2025-10-14T12:34:52.230099",
+    "article_count": 5,
+    "total_content_length": 9450
+  },
+  "articles": [
+    {
+      "title": "NVIDIA Accelerates Robotics Research and Development With New Open ...",
+      "content": "News Summary: NVIDIA today announced that the opensource Newton Physics Engine is now available in NVIDIA Isaac Lab, along with the open NVIDIA Isaac GR00T N1.6 reasoning vision language action model for robot skills and new AI infrastructure. Together, these technologies provide developers and researchers with an open, accelerated robotics platform that speeds iteration, standardizes testing, unifies training with onrobot inference and helps robots transfer skills safely and reliably from simulation to the real world. Humanoids are the next frontier of physical AI, requiring the ability to reason, adapt and act safely in an unpredictable world, said Rev Lebaredian, vice president of Omniverse and simulation technology at NVIDIA. With these latest updates, developers now have the three computers to bring robots from research into everyday life  with Isaac GR00T serving as robots brains, Newton simulating their body and NVIDIA Omniverse as their training ground. Newton Opens New Standard for Physical Simulation in Robotics Robots learn faster and safer in simulation, but humanoid robots  with their complex joints, balance and movements  push todays physics engines to the limit. Over a quarter-million robotics developers worldwide need accurate physics, so the skills they teach robots in simulation can be executed safely and reliably in the real world. Today, NVIDIA announced the beta release of Newton, an open-source, GPU-accelerated physics engine, managed by the Linux Foundation. Built on the NVIDIA Warp and OpenUSD frameworks, and codeveloped by Google DeepMind, Disney Research and NVIDIA, Newton is available now. With Newtons flexible design and ability to work with different types of physics solvers, developers can now simulate extremely complex robot actions, like walking through snow or gravel and handling cups and fruits, and successfully deploy them in the real world. The latest adopters of Newton are esteemed research labs and universities such as ETH Zurich Robotic Systems Lab, Technical University of Munich and Peking University, robotics company Lightwheel, and simulation engine company Style3D. Cosmos Reason Improves Robot Reasoning for New Open Isaac GR00T N1.6 Model To perform humanlike tasks in the physical world, humanoids must understand ambiguous instructions and deal with the long tail of never-before-seen experiences. The latest release of the open Isaac GR00T N1.6 robot foundation model, available soon on Hugging Face, will integrate NVIDIA Cosmos Reason, an open, customizable reasoning vision language model built for physical AI. Acting as the robots deep-thinking brain, Cosmos Reason turns vague instructions into step-by-step plans, using prior knowledge, common sense and physics to handle new situations and generalize across many tasks. Cosmos Reason, downloaded over 1 million times and currently at the top of the Physical Reasoning Leaderboard on Hugging Face, can also curate and annotate large sets of real and synthetic data for model training. Cosmos Reason 1 is now available as an easy-to-use NVIDIA NIM microservice for AI model deployment. Isaac GR00T N1.6 now lets humanoids move and handle objects simultaneously, allowing more torso and arm freedom to complete tough tasks like opening heavier doors. Developers can post-train Isaac GR00T N models using the open-source NVIDIA Physical AI Dataset on Hugging Face. Downloaded over 4.8 million times, the dataset now includes thousands of synthetic and real-world trajectories. Leading robot makers such as AeiROBOT, Franka Robotics, LG Electronics, Lightwheel, Mentee Robotics, Neura Robotics, Solomon, Techman Robot and UCR are evaluating Isaac GR00T N models for building general-purpose robots. New Cosmos World Foundation Models for Physical AI Development NVIDIA announced new updates to its open Cosmos WFMs, downloaded over 3 million times, that let developers generate diverse data for accelerating training physical AI models at scale using text, image and video prompts. New Workflow for Teaching Robot Grasping Teaching a robot to grab an object is one of the most difficult challenges in robotics. It is not just about moving an arm but turning a thought into a precise action  a skill robots must learn through trial and error. The new dexterous grasping workflow in the developer preview of Isaac Lab 2.3, built on the NVIDIA Omniverse platform, trains multi-fingered hand and arm robots in a virtual world using an automated curriculum. It starts with simple tasks and gradually ramps up the complexity. The workflow changes aspects like gravity, friction and the weight of an object, training robots to learn skills even in unpredictable environments. Boston Dynamics Atlas robots learned grasping using this workflow to significantly improve its manipulation capabilities. Leading robot developers Agility Robotics, Boston Dynamics, Figure AI, Hexagon, Skild AI, Solomon and Techman Robot are adopting NVIDIA Isaac and Omniverse technologies. Ev...",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-accelerates-robotics-research-and-development-with-new-open-models-and-simulation-libraries",
+      "domain": "nvidianews.nvidia.com",
+      "author": "",
+      "date_published": "2025-10-14T12:34:44.945383",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "robotics",
+        "latest",
+        "recent",
+        "2024",
+        "2025",
+        "automation",
+        "robotics developments"
+      ],
+      "scraped_at": "2025-10-14T12:34:44.952798",
+      "content_length": 5003,
+      "relevance_score": 0.8999999999999999
+    },
+    {
+      "title": "Latest News Today: Breaking News and Top... The Indian Express",
+      "content": "A B.Com graduate hailing from Peddapalli in Telangana, Sonu is the brother of slain Maoist leader Mallojula Koteshwar Rao alias Kishenji, who was killed in 2011. Noida Authority has installed boards of pending dues outside Lotus Panache in Sector 110 and Supertech Eco City in Sector 137  both among the citys largest group housing projects. The highest AQI in Mumbai was recorded in Colaba, at 180, close to the poor category. Three-member team of Odisha govt-formed commission also visits the victim and her parents at the hospital Set to join a global group of young climate leaders, Anish Malpani says he is hopeful as he prepares to learn and expand his impact. Y Puran Kumar Suicide: Rahul Gandhi said Haryana Chief Minister Nayab Singh Saini had failed to take action against those pressuring the family of Y Puran Kumar. About senior AAP leaders, DySP Raval confirmed that Karpada, Ram, and the AAPs Botad chief were yet to be arrested as on Monday night According to cops, a police team, comprising the sub-inspector and a constable, visited the Dalit boys house on Sunday afternoon looking for his elder brother in connection with the kidnapping of a 16-year-old girl in January this year Company had alleged harassment at Chennai Customs. CBIC statement indicates the possibility of cheating and private fraud by the importers own agents and intermediaries The Telangana High Court set aside the sub-collectors order that attempted to overturn the RDOs findings, noting that the sub-collector had issued a detailed order within a day, while on sanctioned leave. In an internal communication to parents, the school said the student fell accidentally, but it is not clear whether he jumped deliberately or had an accidental fall. A leading neuroscientist reveals how every page you read reshapes your brain, builds empathy, and boosts lifelong mental health. Union minister Ashwini Vaishnaw said he was impressed by the apps detailed 3D junction views that show overbridges and underpasses, along with voice-guided navigation and live traffic updates. Staff Selection Commission (SSC)s Chairman shares why there is a delay in the recruitment process, its recent shift from long-time exam vendor TCS to a new player, tightening exam security, and modernising recruitment practices. Read todays print editions Days after the deaths of children in Madhya Pradesh after allegedly consuming contaminated cough syrups, the World Health Organization (WHO) has raised a medical alert about the three syrups that were found to contain higher than permissible limits of di-ethylene glycol (DEG).",
+      "url": "https://indianexpress.com/",
+      "domain": "indianexpress.com",
+      "author": "",
+      "date_published": "2025-10-14T12:34:44.025714",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "robotics",
+        "latest",
+        "recent",
+        "2024",
+        "2025",
+        "automation",
+        "robotics developments"
+      ],
+      "scraped_at": "2025-10-14T12:34:44.074508",
+      "content_length": 2594,
+      "relevance_score": 0.8999999999999999
+    },
+    {
+      "title": "Latest Recent Indiana Cash Pop Late Night Results magayo",
+      "content": "14 October 2025 (Tuesday)2,500 I played the recommendation... and I won the first prize! See the winning lottery tickets of magayo Lotto users Download magayo Lotto software magayo Lotto is also available as an Android app magayo Lotto software, our award-winning lottery software, provides the historical Cash Pop Late Night results and the latest winning numbers are also automatically downloaded! Learn more  Easily integrate Cash Pop Late Night lottery results into your website and application with our reliable lottery APIs. If you are using WordPress, you can simply install our WordPress lottery plugin. Our WordPress plugin is available in English, Spanish, Portuguese  Simplified Chinese. Learn more  View the Cash Pop Late Night statistics and hits frequency Get your lucky Cash Pop Late Night numbers! Learn how to play and win Cash Pop Late Night See the winning lottery tickets of magayo Lotto users See the awards for magayo Lotto software Download magayo Lotto software magayo Lotto software is FREE. It is also digitally signed and 100 safe  clean. Sections Lottery Software Lottery Feeds Lottery Analysis Lottery Results Lottery Statistics Lottery Numbers Lottery Prediction Lottery Strategy Lottery Jackpots For Users Play Responsibly API Area VIP Club Client Area FAQ Documentation Contact Us Why Us Languages Deutsche Español Français Italiana Portugués 日本語 한국인 简体中文 繁體中文 About Us Site Terms  Privacy Policy  magayo 2010-2025",
+      "url": "https://www.magayo.com/lotto/indiana/cash-pop-late-night-results/",
+      "domain": "magayo.com",
+      "author": "",
+      "date_published": "2025-10-14T12:34:42.549514",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "robotics",
+        "latest",
+        "recent",
+        "2024",
+        "2025",
+        "automation",
+        "robotics developments"
+      ],
+      "scraped_at": "2025-10-14T12:34:42.558548",
+      "content_length": 1446,
+      "relevance_score": 0.7000000000000001
+    },
+    {
+      "title": "ScienceDaily Robotics News -- ScienceDaily",
+      "content": "Content from sciencedaily.com: 2 days ago - June 2, 2025 Despite advances in machine vision, processing visual data requires substantial computing resources and energy, limiting deployment in edge devices. Now, researchers from Jap...",
+      "url": "https://www.sciencedaily.com/news/computers_math/robotics/",
+      "domain": "sciencedaily.com",
+      "author": "",
+      "date_published": "2025-10-14T12:34:42.453994",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "robotics",
+        "latest",
+        "recent",
+        "2024",
+        "2025",
+        "automation",
+        "robotics developments"
+      ],
+      "scraped_at": "2025-10-14T12:34:42.475148",
+      "content_length": 234,
+      "relevance_score": 0.6
+    },
+    {
+      "title": "Associated Press News: Breaking News Latest News Today",
+      "content": "Content from apnews.com: Read the latest headlines, breaking news, and videos at APNews.com, the definitive source for independent journalism from every corner of the globe.",
+      "url": "https://apnews.com/",
+      "domain": "apnews.com",
+      "author": "",
+      "date_published": "2025-10-14T12:34:52.052050",
+      "query": "What are the latest developments in robotics",
+      "keywords": [
+        "robotics",
+        "latest",
+        "recent",
+        "2024",
+        "2025",
+        "automation",
+        "robotics developments"
+      ],
+      "scraped_at": "2025-10-14T12:34:52.225766",
+      "content_length": 173,
+      "relevance_score": 0.6
+    }
+  ]
+}
