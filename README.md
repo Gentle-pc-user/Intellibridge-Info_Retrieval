@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-# 🤖 Multi-Agent System for Domain-Specific Information Retrieval
+
+* # Multi-Agent System for Domain-Specific Information Retrieval
 
 A sophisticated multi-agent system that provides real-time domain-specific information retrieval and response generation for **AI-Robotics** and **Geopolitics** domains using advanced LLM and RAG technologies.
 
-## 🚀 Features
+* ## Features
 
 - **Domain Classification**: Automatically classifies queries into AI-Robotics, Geopolitics, or Out-of-Domain
 - **Real-time Web Search**: Uses DuckDuckGo Search for recent, authoritative content
@@ -13,7 +13,7 @@ A sophisticated multi-agent system that provides real-time domain-specific infor
 - **Streamlit Interface**: User-friendly web interface for interaction
 - **Async Processing**: High-performance concurrent operations
 
-## 🏗️ Architecture
+* ## Architecture
 
 ```
 User Query → ClassifierAgent → WebSearchAgent → ResponseAgent → Final Response
@@ -21,22 +21,22 @@ User Query → ClassifierAgent → WebSearchAgent → ResponseAgent → Final Re
 Domain + Keywords → Recent Content → Vector Store → RAG/Direct Response
 ```
 
-### Agent Workflow
+* ### Agent Workflow
 
 1. **ClassifierAgent**: Uses Ollama Gemma 3 with few-shot prompting to classify domain and extract keywords
 2. **WebSearchAgent**: Searches recent content using DDGS, scrapes with BeautifulSoup
 3. **ResponseAgent**: Builds FAISS index, retrieves relevant content, generates contextual responses via Ollama
 
-## 📦 Installation
+* ## Installation
 
-### Prerequisites
+* ### Prerequisites
 
 - Python 3.8+
 - Ollama installed and running
 - 8GB+ RAM (16GB+ recommended)
 - Internet connection for initial model download
 
-### Setup
+* ### Setup
 
 1. **Install Ollama**
 ```bash
@@ -66,9 +66,9 @@ python setup_ollama.py
 python test_installation.py
 ```
 
-## 🚀 Usage
+* ## Usage
 
-### Running the Streamlit App
+* ### Running the Streamlit App
 
 ```bash
 streamlit run main.py
@@ -76,7 +76,7 @@ streamlit run main.py
 
 The app will be available at `http://localhost:8501`
 
-### Example Queries
+* ### Example Queries
 
 **AI-Robotics Domain:**
 - "What are the latest developments in autonomous drone navigation systems?"
@@ -88,9 +88,9 @@ The app will be available at `http://localhost:8501`
 - "What are the implications of China's Belt and Road Initiative?"
 - "How are trade tensions between US and China evolving?"
 
-## 🔧 Configuration
+* ## Configuration
 
-### Model Configuration
+* ### Model Configuration
 
 Edit the agent initialization in `main.py`:
 
@@ -101,7 +101,7 @@ classifier = ClassifierAgent(model_name="gemma2:2b")          # Smaller Gemma 2B
 classifier = ClassifierAgent(model_name="gemma2:9b")          # Larger Gemma 9B
 ```
 
-### Search Configuration
+* ### Search Configuration
 
 Modify `agents/websearch_agent.py`:
 
@@ -111,7 +111,7 @@ max_results_per_query = 10      # Search results per query
 max_scrape_per_query = 5        # Articles to scrape per query
 ```
 
-### RAG Configuration
+* ### RAG Configuration
 
 Modify `agents/response_agent.py`:
 
@@ -122,7 +122,7 @@ chunk_overlap = 200             # Overlap between chunks
 large_threshold = 3000          # Use RAG if content > this length
 ```
 
-## 📁 Project Structure
+* ## Project Structure
 
 ```
 ├── main.py                     # Streamlit app entry point
@@ -142,7 +142,7 @@ large_threshold = 3000          # Use RAG if content > this length
     └── multi_agent.log       # System logs
 ```
 
-## 🧠 Technical Details
+* ## Technical Details
 
 ### Models Used
 
@@ -166,7 +166,7 @@ large_threshold = 3000          # Use RAG if content > this length
 - **Text Chunking**: Prevents memory overflow with large documents
 - **Index Optimization**: Efficient FAISS operations
 
-## 🔍 Monitoring & Logging
+* ## Monitoring & Logging
 
 ### Log Files
 
@@ -181,7 +181,7 @@ large_threshold = 3000          # Use RAG if content > this length
 - Response generation time
 - Vector store performance
 
-## 🛠️ Troubleshooting
+* ## Troubleshooting
 
 ### Common Issues
 
@@ -209,14 +209,14 @@ import logging
 logging.getLogger().setLevel(logging.DEBUG)
 ```
 
-## 🔒 Security Considerations
+* ## Security Considerations
 
 - **Input Validation**: All user queries are validated
 - **Rate Limiting**: Respectful web scraping practices
 - **Content Filtering**: Removes potentially harmful content
 - **Error Handling**: Graceful failure modes
 
-## 📊 Performance Benchmarks
+* ## Performance Benchmarks
 
 ### Typical Performance (Local Ollama)
 
@@ -231,7 +231,7 @@ logging.getLogger().setLevel(logging.DEBUG)
 - **Disk Space**: ~4-8GB (for Ollama models and data)
 - **CPU/GPU**: Ollama handles resource management
 
-## 🤝 Contributing
+* ## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -239,11 +239,11 @@ logging.getLogger().setLevel(logging.DEBUG)
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+* ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+* ## Acknowledgments
 
 - **Google**: For the Gemma 3 model
 - **Hugging Face**: For the transformers library
@@ -251,7 +251,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **DuckDuckGo**: For search API
 - **Streamlit**: For the web interface
 
-## 📞 Support
+* ## Support
 
 For issues and questions:
 
