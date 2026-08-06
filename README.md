@@ -1,6 +1,7 @@
 <div align = "center">
      <img src =  "templates/Images/Intellibridge_banner.png" alt = "Intllibridge_banner" width = 100%>
 </div>
+
 * # Multi-Agent System for Domain-Specific Information Retrieval
 
 A sophisticated multi-agent system that provides real-time domain-specific information retrieval and response generation for **AI-Robotics** and **Geopolitics** domains using advanced LLM and RAG technologies.
